@@ -1,5 +1,5 @@
 $(document).ready(function() {
-// $("html,body").animate({scrollTop: 0}, 500);
+$("html,body").animate({scrollTop: 0}, 500);
 	
 $('.arrow-down').click(function() {
 	$('html, body').animate({
