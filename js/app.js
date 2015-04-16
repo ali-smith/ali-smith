@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 $("html,body").animate({scrollTop: 0}, 500);
 	
 $('.arrow-down').click(function() {
@@ -13,7 +14,6 @@ $('a').click(function() {
 		}, 1000);
 		return false;
 });
-
 
 $('.circle-box').hover(function() {
 	$(this).children('.circle-front').hide();
