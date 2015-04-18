@@ -186,6 +186,7 @@ div.arrow-down {
 	display: inline-block;
 }
 
+/*probably the problem with safari is that this is a class and not assigned to the element*/
 .verticalCenter {
 	display: inline-block;
 	position: relative;
@@ -231,8 +232,13 @@ div.arrow-down {
 	position: absolute;
 }
 
+
 .fa-github.fa-4x, .fa-external-link-square.fa-4x {
 	margin: 168px 15px 0;
+}
+
+.fa-github.fa-4x:hover, .fa-external-link-square.fa-4x:hover {
+	color: #ebebeb;
 }
 
 .sample-1, .sample-2, .sample-3, .sample-4 {
