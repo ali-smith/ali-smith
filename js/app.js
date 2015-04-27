@@ -10,24 +10,42 @@ $('a').click(function() {
 		return false;
 });
 
+$('.contactButton').click(function(event) {
+	if ($('.contactWrapper:hidden')) {
+			$('.contactWrapper').slideDown('slow');
+			$('.infoArticleContainer').slideUp('slow');
 
-// $('#samplesID').click(function() {
-// 	$('.samplesSection').show();
-// 	$('.homeSection').hide();
-// 	$('.infoSection').hide();
-// });
+	}else if ($('.contactWrapper:visible')){
+			$('.contactWrapper').slideUp('slow');
+			$('.infoArticleContainer').slideDown('slow');
+	}		
+});	
 
-// $('#infoID').click(function() {
-// 	$('.samplesSection').hide();
-// 	$('.homeSection').show();
-// 	$('.infoSection').show();
-// });
+// $('.contactButton').click(function(event) {
+// 	if ($('.infoArticleContainer:hidden')) {
+			
+// 	}
+// });	
 
-$('.sample-1, .sample-2, .sample-3, .sample-4').hover(function() {
-	$(this).children('.sampleOverlay').fadeIn();
+
+$('.sampleHoverBox').hover(function() {
+	$(this).siblings('.sampleOverlay').fadeIn();
 }, function() {
-	$(this).children('.sampleOverlay').fadeOut();
+	$(this).siblings('.sampleOverlay').fadeOut();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 });//doc ready
