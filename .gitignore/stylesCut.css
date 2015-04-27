@@ -1,0 +1,102 @@
+
+div.arrow-down {
+	width: 100px;
+	height: 50px;
+	background: url("../images/arrow-down47x25.png") center no-repeat;
+	margin: 40px auto 0;
+	cursor: pointer;	
+	/*animations*/
+	-webkit-animation-name: arrow-pulse;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-duration: 3s;	
+	-webkit-animation-iteration-count:  infinite;
+	-moz-animation-name: arrow-pulse;
+	-moz-animation-delay: 1.5s;
+	-moz-animation-duration: 3s;	
+	-moz-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes arrow-pulse  {
+	0%  {margin-top: 40px;}
+	25% {margin-top: 0px;}	
+	50% {margin-top: 40px;}
+	75% {margin-top: 20px;}
+	100% {margin-top: 40px;}	
+}
+
+@-moz-keyframes arrow-pulse {
+	0%  {margin-top: 40px;}
+	25% {margin-top: 0px;}	
+	50% {margin-top: 40px;}
+	75% {margin-top: 20px;}
+	100% {margin-top: 40px;}
+}
+
+
+.deliverablesH1, .samplesH1, .aboutH1 {
+	/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #494949;
+	font-size: 36px;
+	width: 100%;
+	text-align: center;
+	padding-top: 75px;
+	position: absolute;
+}
+
+
+
+.introContainer h2 {
+	line-height: 35px;
+	margin-top: 20px;
+}
+
+.introContainer h3 {
+	margin-bottom: 10px;
+}
+
+.fa-code, .fa-pencil, .fa-lightbulb-o {
+	color: #c0c0c0;
+	margin-top: 35px;
+	margin-bottom: 20px; 
+}
+
+.introSkillBoxOne {/*
+	border: 1px solid red;*/
+	/*background-color: #858585;*/
+	/*background-color: rgba(133, 133, 133, 0.75);*/
+	/*color: rgba(66, 70, 56, 1.0);*/
+	/*color: rgba(255, 255, 255, .90);*/
+	text-align: center;
+	height: 220px;
+	width: 29.33%;
+	margin: 25px 2% 0;
+	float: left;
+}
+
+.introSkillBoxTwo {
+	/*border: 1px solid red;*/
+	/*background-color: #8f8083;*/
+	/*background-color: rgba(154, 132, 123, 0.75);*/
+	/*color: rgba(56, 66, 70, 1.0);*/
+	/*color: rgba(255, 255, 255, .90);*/
+	text-align: center;
+	height: 220px;
+	width: 29.33%;
+	margin: 25px 2% 0;
+	float: left;
+}
+
+.introSkillBoxThree {/*
+	border: 1px solid red;*/
+	/*background-color: #9a847b;*/
+	/*background-color: rgba(143, 128, 131, 0.75);*/
+	/*color: rgba(70, 56, 66, 1.0);*/
+	/*color: rgba(255, 255, 255, .90);*/
+	text-align: center;
+	height: 220px;
+	width: 29.33%;
+	margin: 25px 2% 0;
+	float: left;
+}
+
