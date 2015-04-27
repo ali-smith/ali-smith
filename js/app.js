@@ -13,7 +13,7 @@ $('a').click(function() {
 $('.contactButton').click(function(event) {
 	if ($('.contactWrapper:hidden')) {
 			$('.contactWrapper').slideDown('slow');
-			$('.infoArticleContainer').slideUp('slow');
+			$('.infoArticleContainer').slideUp();
 
 	}else if ($('.contactWrapper:visible')){
 			$('.contactWrapper').slideUp('slow');
