@@ -146,8 +146,10 @@ font-family: 'Hind', sans-serif;
 .infoArticle {
 /*border: 5px solid orange;*/
 position: absolute;
+padding-right: 45px;
 left: 12%;
 top: 100px;
+border-right: 1px solid #4c4c4c;
 }
 
 .infoArticleContainer {
