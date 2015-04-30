@@ -18,10 +18,12 @@ $('a').click(function() {
 });
 
 
-$('.sampleHoverBox').hover(function() {
-	$(this).siblings('.sampleOverlay').fadeIn();
+$('.sampleDescriptionContainer').hover(function() {
+	$(this).parent('.sampleDescription').addClass('sampleFade');
+	$(this).children('.sampleDescriptionCenter').fadeIn('slow');
 }, function() {
-	$(this).siblings('.sampleOverlay').fadeOut();
+	$(this).parent('.sampleDescription').removeClass('sampleFade');
+	$(this).children('.sampleDescriptionCenter').fadeOut('slow');
 });
 
 

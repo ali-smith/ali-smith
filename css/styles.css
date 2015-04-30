@@ -1,10 +1,6 @@
 /*----------universal-----------*/
 
-* {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
+
 
 html {
 /*font-family: 'Open Sans', sans-serif;*/
@@ -279,84 +275,66 @@ width: 500px;
 
 
 
-.samplesSection {
-	/*display: none;*/
-}
-
-.samplesSection h1.projects {
-	/*color: #494949;*/
-	font-size: 30px;
-	/*color: rgba(255, 255, 255, 1.0);*/
-	color: black;
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	/*background-color: #c0c0c0;*/
-	border-top: 1px solid #c0c0c0;
-
-}
-
 .sample-1, .sample-2, .sample-3, .sample-4 {
-	/*border:1px solid red;*/
-	height: 850px;
-	width: auto;
+/*	border:1px solid red;*/
+	height: 800px;
+	width: 100%;
 	position: relative;
 
 }
 
-.sampleHoverBox {
-	border: 1px solid red;
-	width: 300px;
-	height: 100%;
-	position: absolute;
-  	left: 50%;
-  	margin-left: -150px;
-	/*z-index for smooth hover */
-	z-index: 10;
-}
-
-.sampleOverlay {/*
-	border: 1px solid green;*/
-	background-color: rgba(0, 0, 0, 0.75);
-	color: rgba(255, 255, 255, 0.85);
-	font-size: 30px;
-	text-align: center;
-	/*position: relative;*/
-	width: 100%;
-	height: 850px;
-
-	/*display: none;*/
-
-}
 
 .sampleDescription {
-
-	border: 1px solid white;
-	color: white;
-
-	position: absolute;
+	/*border: 1px solid green;*/
+	
+	/*position: absolute;*/
 	width: 100%;
+	height: 100%;
+	
+	/*display: none;*/
+
+	-webkit-transition: background-color 1s ease;
+	-o-transition: background-color 1s ease;
+	transition: background-color 1s ease;
+}
+
+.sampleFade {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.sampleDescriptionContainer {
+	/*border: 1px solid blue;*/
+	font-size: 30px;
+	color: rgba(255, 255, 255, 0.85);
 	text-align: center;
-
+	width: 500px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
 }
 
-.sampleDescription a {
-	position: relative;
-	z-index: 100;
+.sampleDescriptionCenter {
+	display: none;
+	-webkit-transition: display 2s ease;
+	-o-transition: display 2s ease;
+	transition: display 2s ease;
 }
 
-.sampleDescription h1 {
+.sampleDescriptionCenter h1 {
+	font-size: 30px;
 	margin-bottom: 20px;
 }
 
 .fa-github.fa-lg, .fa-external-link-square.fa-lg {
+
 	  margin: 25px 10px;
 
 }
 
 .sample-1 {
 	/*background-color: orange;*/
-	background: url("../images/orion677x400.jpg");
+	background: url("../images/orion.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -365,7 +343,7 @@ width: 500px;
 
 .sample-2 {
 	/*background-color: red;*/
-	background: url("../images/shopurr577x400.jpg");
+	background: url("../images/shopurr.jpg");
 	background-repeat: no-repeat;
 	/*background-size: cover;*/
 	background-position: center;
@@ -377,7 +355,7 @@ width: 500px;
 
 .sample-3 {
 	/*background-color: green;*/
-	background: url("../images/hotCold648x400.jpg");
+	background: url("../images/hotCold.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -388,7 +366,7 @@ width: 500px;
 
 .sample-4 {
 	/*background-color: yellow;*/
-	background: url("../images/flamingos542x400.jpg");
+	background: url("../images/flamingos.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
