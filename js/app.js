@@ -7,7 +7,7 @@ $('.correctThem').fadeIn(2500);
 $('.psst').fadeIn(2750);
 
 
-$('a').click(function() {
+$('.internalLink').click(function() {
 	$('html, body').animate({
 		scrollTop: $( $.attr(this, 'href') ).offset().top
 		}, 1000);
