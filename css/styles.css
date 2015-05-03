@@ -435,7 +435,37 @@ footer {
 		padding-left: 12%;
 	}
 
-	/*.sample4 > .sampleDescription >*/ 
+	.sampleDescriptionContainer {
+		width: 400px;
+		height: 100%;
+		position: absolute;
+		left: 50%;
+		margin-left: -200px;
+	}
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+	
+	.samplesArrow {
+		bottom: 15px;
+	}
+	
+	.resumeIcons {
+		margin-top: 0px;
+	
+	}
+	
+	.arrow-up {
+		bottom: 30px;
+	}
+
+	footer {
+		padding-left: 12%;
+	}
 
 	.sampleDescriptionContainer {
 		width: 400px;
