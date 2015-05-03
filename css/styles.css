@@ -448,7 +448,7 @@ footer {
 
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
 	nav {
 		padding: 10px 5px 10px 5%;
 	}
@@ -465,8 +465,6 @@ footer {
 	.homeContainer {
 		width: 320px;
 		left: 0;
-
-	
 	}
 
 	.psstA {
@@ -475,25 +473,25 @@ footer {
 
 	.infoArticle {
 		width: 320px;
-		
+		left: 0;
 	}
 
 	.infoArticleContainer {
 		width: 320px;
-		
+		left: 0;
 
 	}
 
 	.sampleDescriptionContainer {
 		width: 320px;
-
+left: 0;
 
 
 	}
 
 	.contactArticle {
 		width: 320px;
-
+left: 0;
 
 
 	}
@@ -502,9 +500,10 @@ footer {
 		display: none;
 	}
 
-	section {
+	/*section {
 		width: 320px;
-	}
+		left: 0;
+	}*/
 
 
 
