@@ -403,7 +403,7 @@ footer {
 /*-----media queries--------*/
 
 
-@media (max-width: 900px) {
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
   	
   	nav {
     	background: #1c1c1c;
@@ -416,7 +416,7 @@ footer {
 
 }
 
-@media handheld, screen and (max-width: 650px) {
+@media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
  	
  	.samplesArrow {
 		bottom: 15px;
@@ -445,7 +445,7 @@ footer {
 
 }
 
-/*@media only screen 
+@media only screen 
 and (min-device-width : 320px), 
 and (max-device-width : 568px), 
 and (orientation : portrait) { 
@@ -475,7 +475,7 @@ and (orientation : portrait) {
 		margin-left: -200px;
 	}
 
-}*/
+}
 
 
 
