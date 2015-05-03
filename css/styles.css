@@ -448,7 +448,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait){
 	nav {
 		padding: 10px 5px 10px 5%;
 	}
@@ -463,8 +463,10 @@ footer {
 	}
 	
 	.homeContainer {
-		width: 320px;
+		/*width: 320px;
 		left: 0;
+		padding-left: 5%;*/
+		width:100%;
 	}
 
 	.psst, .psstA {
@@ -472,38 +474,45 @@ footer {
 	}
 
 	.infoArticle {
-		width: 320px;
+		/*width: 320px;
 		left: 0;
+		padding-left: 5%;
+		padding-right: 5%;*/
+		width:100%;
 	}
 
 	.infoArticleContainer {
-		width: 320px;
-		left: 0;
-
+		/*width: 320px;
+		left: 0;*/
+		width:100%;
 	}
 
 	.sampleDescriptionContainer {
-		width: 320px;
-left: 0;
-
-
+		/*width: 320px;*/
+		width:100%;
 	}
-
+	.samplesArrow {
+		bottom: 0;
+		padding-left: 5%;
+		left: 0;
+	}
+	.counterArrow {
+		left: 5%;
+	}
 	.contactArticle {
-		width: 320px;
-left: 0;
-
-
+		/*left: 0;
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 320px;*/
+		width:100%;
 	}
 
 	.arrow-up {
 		display: none;
 	}
 
-	/*section {
-		width: 320px;
-		left: 0;
-	}*/
+	
+}
 
 
 
