@@ -236,7 +236,7 @@ nav a:hover {
 }
 
 .sample-1, .sample-2, .sample-3, .sample-4 {
-	height: 800px;
+	min-height: 800px;
 	width: 100%;
 	position: relative;
 }
@@ -468,6 +468,7 @@ footer {
 		top: 10px;
 		left: 0;
 		padding-left: 5%;
+		padding-right: 5%;
 	}
 	.infoArticleContainer {
 		max-width: 100%;
@@ -481,12 +482,12 @@ footer {
 		margin-left: -200px;
 	}
 	.samplesArrow {
-		bottom: 15px;
+		bottom: 5px;
 		padding-left: 5%;
 		left: 0;
 	}
 	.counterArrow {
-		left: 5%;
+		padding-left: 5%;
 		left: 0;
 	}
 	.contactArticle {
