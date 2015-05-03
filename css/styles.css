@@ -514,17 +514,13 @@ footer {
 
 	.contactContainer {
 		width: 320px;
+		padding-right: 0;
 	}
 
 	.arrow-up {
 		display: none;
 	}
-	section {
-		width: 320px;
-		margin-left: 0;
-		margin-right: 0;
-		padding-left: 0;
-		padding-right: 0;
+
 }
 
 
