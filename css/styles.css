@@ -459,20 +459,15 @@ footer {
 	}
 
 	.navLinksSpan {
-		/*right: 0;*/
+		right: 0;
 		padding-right: 5%;
 		top: 10px;
 	}
-	.homeSection {
-/*	background: url("../images/1280x-slate-gradient.jpg") no-repeat center;*/
-	/*background-size: 75%;*/
-/*	height: 100vh;
-  	width: 100%;*/
-	}
+
 	.homeContainer {
-		/*left: 0;*/
+		left: 0;
 		padding-left: 5%;
-		width: 100%;
+		width: 320px;
 	}
 	.psstA {
 		display: none;
@@ -480,36 +475,34 @@ footer {
 
 	.infoArticle {
 		top: 10px;
-		/*left: 0;*/
-		width: 100%;
-		position: static;
+		left: 0;
 		padding-left: 5%;
 		padding-right: 5%;
 	}
 	.infoArticleContainer {
-		width: 100%;
-
+		max-width: 100%;
+		min-width: 0px;
 	}
 	.sampleDescriptionContainer {
-		width: 100%;
-		/*height: 100%;*/
-		/*position: absolute;*/
-		/*left: 50%;*/
-		/*margin-left: -200px;*/
+		width: 320px;
+		height: 100%;
+		position: absolute;
+		left: 50%;
+		margin-left: -200px;
 	}
 	.samplesArrow {
 		bottom: 0;
 		padding-left: 5%;
-		/*left: 0;*/
+		left: 0;
 	}
 	.counterArrow {
 		left: 5%;
 	}
 	.contactArticle {
-		/*left: 0;*/
+		left: 0;
 		padding-left: 5%;
 		padding-right: 5%;
-		width: 100%;
+		width: 320px;
 	}
 	.resumeIcons {
 		margin-top: 0px;
@@ -520,10 +513,9 @@ footer {
 	footer {
 		padding-left: 5%;
 		padding-right: 5%;
-		width: 100%;
-		/*left: 0;*/
+		width: 320px;
+		left: 0;
 	}
-
 
 }
 
