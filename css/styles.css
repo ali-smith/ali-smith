@@ -463,10 +463,15 @@ footer {
 	}
 	
 	.homeContainer {
-		/*width: 320px;
+
 		left: 0;
-		padding-left: 5%;*/
+		padding-left: 5%;
 		width: 320px;
+		top: 0;
+		transform: none;
+  		-moz-transform: none;
+  		-webkit-transform: none;
+  		-o-transform: none;
 	}
 
 	.psst, .psstA {
@@ -510,10 +515,7 @@ footer {
 	.arrow-up {
 		display: none;
 	}
-	section {
-		width: 320px;
-	}
-	
+
 }
 
 
