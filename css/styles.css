@@ -400,6 +400,8 @@ footer {
 	font-size: 12px;
 }
 
+
+
 /*-----media queries--------*/
 
 
@@ -440,7 +442,7 @@ footer {
 
 }
 
-@media only screen and (min-width : 320px), only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
+@media only screen and (max-width: 568px), only screen and (max-device-width : 568px) { 
 	
 	.samplesArrow {
 		bottom: 15px;
@@ -466,6 +468,14 @@ footer {
 		left: 50%;
 		margin-left: -200px;
 	}
+	nav {
+		background: none;
+	}
+	
+	nav h1, .navLinksSpan {
+		display: none;
+	}
+
 
 }
 
