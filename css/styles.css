@@ -442,7 +442,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 568px), only screen and (max-device-width : 568px) { 
+@media only screen and (max-width: 320px), only screen and (max-device-width : 320px) { 
 	
 	.samplesArrow {
 		bottom: 15px;
@@ -462,7 +462,7 @@ footer {
 	}
 
 	.sampleDescriptionContainer {
-		width: 400px;
+		width: 320px;
 		height: 100%;
 		position: absolute;
 		left: 50%;
@@ -481,7 +481,7 @@ footer {
 	.homeContainer {
 		left: 0;
 		padding-left: 5%;
-		width: 560px;
+		width: 320px;
 	}
 	.psst {
 		left: 0;
@@ -491,7 +491,7 @@ footer {
 	.infoArticle {
 		left: 0;
 		padding-left: 5%;
-		width: 300px;
+		width: 320px;
 	}
 	.samplesArrow {
 		left: 5%;
@@ -502,14 +502,14 @@ footer {
 	.contactArticle {
 		left: 0;
 		padding-left: 5%;
-		width: 100%;
+		width: 320px;
 	}
 	.arrow-up {
 		left: 5%;
 	}
 	footer {
 		padding-left: 5%;
-		width: 300px;
+		width: 320px;
 	}
 
 
