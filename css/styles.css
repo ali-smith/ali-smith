@@ -475,7 +475,7 @@ footer {
 	}
 
 	.infoArticle {
-		width: 320px;
+		/*width: 320px;*/
 		left: 0;
 		padding-left: 5%;
 	
@@ -485,8 +485,8 @@ footer {
 	.infoArticleContainer {
 		/*width: 320px;
 		left: 0;*/
-		width: 320px;
-		word-wrap: normal;
+		/*width: 320px;*/
+		
 	}
 
 	/*.bioH1, .bioH2, .bioP {
@@ -495,7 +495,7 @@ footer {
 
 	.sampleDescriptionContainer {
 		/*width: 320px;*/
-		width: 320px;
+		/*width: 320px;*/
 	}
 	.samplesArrow {
 		bottom: 0;
@@ -510,11 +510,11 @@ footer {
 		padding-left: 5%;
 		padding-right: 5%;
 		width: 320px;*/
-		width: 320px;
+		/*width: 320px;*/
 	}
 
 	.contactContainer {
-		width: 320px;
+		/*width: 320px;*/
 		padding-right: 0;
 		word-wrap: normal;
 	}
