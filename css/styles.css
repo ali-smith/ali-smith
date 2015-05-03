@@ -465,14 +465,8 @@ footer {
 		width: 100%;
 	}
 	.infoArticle {
-		/*left: 0;*/
-		padding-left: 5%;
-		width: 320px;
-
-		position: relative;
-		padding-right: 0px;
 		left: 0;
-		top: 1px;
+		padding-left: 5%;
 	}
 	.infoArticleContainer {
 	max-width: 320px;
