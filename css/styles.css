@@ -467,11 +467,7 @@ footer {
 		left: 0;
 		padding-left: 5%;
 		width: 320px;
-		top: 0;
-		transform: none;
-  		-moz-transform: none;
-  		-webkit-transform: none;
-  		-o-transform: none;
+
 	}
 
 	.psst, .psstA {
@@ -479,17 +475,18 @@ footer {
 	}
 
 	.infoArticle {
-		/*width: 320px;
+		width: 320px;
 		left: 0;
 		padding-left: 5%;
-		padding-right: 5%;*/
-		width: 320px;
+	
+
 	}
 
 	.infoArticleContainer {
 		/*width: 320px;
 		left: 0;*/
 		width: 320px;
+		padding-right: 10%;
 	}
 
 	.sampleDescriptionContainer {
