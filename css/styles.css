@@ -234,7 +234,7 @@ nav a:hover {
 .counterAnchor {
 	border: 1px solid red;
 	height: 50px;
-	width: 500px;
+	/*width: 500px;*/
 }
 
 .sample-1, .sample-2, .sample-3, .sample-4 {
@@ -488,9 +488,9 @@ footer {
 		width: 320px;
 	}
 
-	.bioH1, .bioH2, .bioP {
+	/*.bioH1, .bioH2, .bioP {
 		width: 100px;
-	} 
+	}*/ 
 
 	.sampleDescriptionContainer {
 		/*width: 320px;*/
@@ -509,6 +509,10 @@ footer {
 		padding-left: 5%;
 		padding-right: 5%;
 		width: 320px;*/
+		width: 320px;
+	}
+
+	.contactContainer {
 		width: 320px;
 	}
 
