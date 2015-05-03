@@ -59,6 +59,7 @@ nav a:hover {
 }
 
 .menuBars {
+	color: rgba(157, 159, 159, 0.75);
 	display: none;
 }
 
@@ -347,11 +348,6 @@ nav a:hover {
 }
 
 .resumeIcons {
-/*	border:1px solid red;*/
-	/*position: absolute;*/
-	/*max-width: 200px;*/
-	/*bottom: -5px;
-	right: 100px;*/
 	margin-top: 162px;
 	width: 200px;
 	float: left;
@@ -473,7 +469,7 @@ footer {
 		margin-left: -200px;
 	}
 	nav {
-		/*background: none;*/
+		padding: 5px 5px 5px 5%;
 	}
 
 	.aliSmith, .navLinksSpan {
