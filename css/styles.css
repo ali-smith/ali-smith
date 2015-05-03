@@ -449,23 +449,23 @@ footer {
 	nav {
 		padding: 10px 5px 10px 5%;
 	}
-
+	#logo {
+		width: 10px;
+		height: auto;
+	}
 	.aliSmith, .navLinksSpan {
-		display: none;
+		
 	}
-	.menuBars {
+	/*.menuBars {
 		display: inline;
-	}
+	}*/
 	.homeContainer {
 		left: 0;
 		padding-left: 5%;
 		width: 320px;
 	}
 	.psst {
-		left: 0;
-		padding-left: 5%;
-		bottom: 0;
-		width: 100%;
+		display: none;
 	}
 
 	.infoArticle {
