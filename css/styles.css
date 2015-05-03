@@ -417,6 +417,10 @@ footer {
 		margin-right: 20px;
 	}
 
+	.contactArticle, .infoArticle {
+		border: none;
+	}
+
 }
 
 @media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
@@ -444,16 +448,10 @@ footer {
 
 }
 
-@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) { 
-
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) {
 	nav {
 		padding: 10px 5px 10px 5%;
 	}
-	#logo {
-		/*width: 10px;
-		height: auto;*/
-	}
-
 	nav a {
 		margin-right: 5px; 
 	}
@@ -463,61 +461,8 @@ footer {
 		padding-right: 5%;
 		top: 10px;
 	}
+	
 
-	.homeContainer {
-		left: 0;
-		padding-left: 5%;
-		width: 320px;
-	}
-	.psstA {
-		display: none;
-	}
-
-	.infoArticle {
-		top: 10px;
-		left: 0;
-		padding-left: 5%;
-		padding-right: 5%;
-	}
-	.infoArticleContainer {
-		max-width: 100%;
-		min-width: 0px;
-	}
-	.sampleDescriptionContainer {
-		width: 320px;
-		height: 100%;
-		position: absolute;
-		left: 50%;
-		margin-left: -200px;
-	}
-	.samplesArrow {
-		bottom: 0;
-		padding-left: 5%;
-		left: 0;
-	}
-	.counterArrow {
-		left: 5%;
-	}
-	.contactArticle {
-		left: 0;
-		padding-left: 5%;
-		padding-right: 5%;
-		width: 320px;
-	}
-	.resumeIcons {
-		margin-top: 0px;
-	}
-	.arrow-up {
-		display: none;
-	}
-	footer {
-		padding-left: 5%;
-		padding-right: 5%;
-		width: 320px;
-		left: 0;
-	}
-
-}
 
 
 
