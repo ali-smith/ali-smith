@@ -469,7 +469,7 @@ footer {
 		padding-left: 5%;
 	}
 	.infoArticleContainer {
-		max-width: 320px;
+		max-width: 100%;
 		min-width: 0px;
 	}
 	.sampleDescriptionContainer {
@@ -481,7 +481,7 @@ footer {
 	}
 	.samplesArrow {
 		bottom: 15px;
-		left: 5%;
+		padding-left: 5%;
 		left: 0;
 	}
 	.counterArrow {
@@ -498,7 +498,7 @@ footer {
 	}
 	.arrow-up {
 		bottom: 30px;
-		left: 5%;
+		padding-left: 5%;
 		left: 0;
 	}
 	footer {
