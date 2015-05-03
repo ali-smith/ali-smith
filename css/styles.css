@@ -448,7 +448,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) and (orientation: portrait) {
+@media only screen and (max-width: 568px), only screen and (max-device-width: 568px) and (orientation: portrait) {
 	nav {
 		padding: 10px 5px 10px 5%;
 	}
