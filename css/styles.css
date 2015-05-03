@@ -238,7 +238,7 @@ nav a:hover {
 }
 
 .sample-1, .sample-2, .sample-3, .sample-4 {
-	min-height: 800px;
+	height: 800px;
 	width: 100%;
 	position: relative;
 }
@@ -453,23 +453,23 @@ footer {
 		/*width: 10px;
 		height: auto;*/
 	}
+
 	nav a {
 		margin-right: 5px; 
 	}
+
 	.navLinksSpan {
 		right: 0;
 		padding-right: 5%;
 		top: 10px;
 	}
-	/*.menuBars {
-		display: inline;
-	}*/
+
 	.homeContainer {
 		left: 0;
 		padding-left: 5%;
 		width: 320px;
 	}
-	.internalLink . {
+	.psst {
 		display: none;
 	}
 
