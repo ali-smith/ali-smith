@@ -459,13 +459,13 @@ footer {
 	}
 
 	.navLinksSpan {
-		right: 0;
+		/*right: 0;*/
 		padding-right: 5%;
 		top: 10px;
 	}
 
 	.homeContainer {
-		left: 0;
+		/*left: 0;*/
 		padding-left: 5%;
 		width: 100%;
 	}
@@ -475,7 +475,7 @@ footer {
 
 	.infoArticle {
 		top: 10px;
-		left: 0;
+		/*left: 0;*/
 		width: 100%;
 		padding-left: 5%;
 		padding-right: 5%;
@@ -487,20 +487,20 @@ footer {
 	.sampleDescriptionContainer {
 		width: 100%;
 		/*height: 100%;*/
-		position: absolute;
-		left: 50%;
-		margin-left: -200px;
+		/*position: absolute;*/
+		/*left: 50%;*/
+		/*margin-left: -200px;*/
 	}
 	.samplesArrow {
 		bottom: 0;
 		padding-left: 5%;
-		left: 0;
+		/*left: 0;*/
 	}
 	.counterArrow {
 		left: 5%;
 	}
 	.contactArticle {
-		left: 0;
+		/*left: 0;*/
 		padding-left: 5%;
 		padding-right: 5%;
 		width: 100%;
@@ -515,7 +515,7 @@ footer {
 		padding-left: 5%;
 		padding-right: 5%;
 		width: 100%;
-		left: 0;
+		/*left: 0;*/
 	}
 
 }
