@@ -486,8 +486,11 @@ footer {
 		/*width: 320px;
 		left: 0;*/
 		width: 320px;
-		padding-right: 20%;
 	}
+
+	.bioH1, .bioH2, .bioP {
+		width: 320px;
+	} 
 
 	.sampleDescriptionContainer {
 		/*width: 320px;*/
