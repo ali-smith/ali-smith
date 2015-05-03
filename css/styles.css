@@ -126,7 +126,7 @@ nav a:hover {
 /*------------info section---------*/
 
 .infoSection {
-	height: 850px;
+	min-height: 850px;
 	width: 100%;
 	position: relative;
 }
@@ -465,6 +465,7 @@ footer {
 		width: 100%;
 	}
 	.infoArticle {
+		top: 10px;
 		left: 0;
 		padding-left: 5%;
 	}
