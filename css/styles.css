@@ -464,9 +464,10 @@ footer {
 	.psst {
 		left: 0;
 		padding-left: 5%;
-		bottom: 2px;
+		bottom: 0;
 		width: 100%;
 	}
+
 	.infoArticle {
 		top: 10px;
 		left: 0;
@@ -485,29 +486,28 @@ footer {
 		margin-left: -200px;
 	}
 	.samplesArrow {
-		bottom: 2px;
+		bottom: 0;
 		padding-left: 5%;
 		left: 0;
 	}
 	.counterArrow {
-		padding-left: 5%;
-		left: 0;
+		left: 5%;
 	}
 	.contactArticle {
 		left: 0;
 		padding-left: 5%;
+		padding-right: 5%;
 		width: 320px;
 	}
 	.resumeIcons {
 		margin-top: 0px;
 	}
 	.arrow-up {
-		bottom: 2px;
-		padding-left: 5%;
-		left: 0;
+		display: none;
 	}
 	footer {
 		padding-left: 5%;
+		padding-right: 5%;
 		width: 320px;
 		left: 0;
 	}
