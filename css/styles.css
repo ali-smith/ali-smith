@@ -465,9 +465,14 @@ footer {
 		width: 100%;
 	}
 	.infoArticle {
-		left: 0;
+		/*left: 0;*/
 		/*padding-left: 5%;*/
 		width: 320px;
+
+		position: absolute;
+		padding-right: 0px;
+		left: 0;
+		top: 1px;
 	}
 	.sampleDescriptionContainer {
 		width: 320px;
