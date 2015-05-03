@@ -58,6 +58,10 @@ nav a:hover {
   	top: 38px;
 }
 
+.menuBars {
+	display: none;
+}
+
 
 /*--------home section----------*/
 
@@ -469,11 +473,14 @@ footer {
 		margin-left: -200px;
 	}
 	nav {
-		background: none;
+		/*background: none;*/
 	}
-	
-	nav h1, .navLinksSpan {
+
+	.aliSmith, .navLinksSpan {
 		display: none;
+	}
+	.menuBars {
+		display: inline;
 	}
 
 
