@@ -481,7 +481,7 @@ footer {
 	.homeContainer {
 		left: 0;
 		padding-left: 5%;
-		width: 100%;
+		width: 560px;
 	}
 	.psst {
 		left: 0;
@@ -491,7 +491,7 @@ footer {
 	.infoArticle {
 		left: 0;
 		padding-left: 5%;
-		width: 100%;
+		width: 560px;
 	}
 	.samplesArrow {
 		left: 5%;
@@ -509,6 +509,7 @@ footer {
 	}
 	footer {
 		padding-left: 5%;
+		width: 560px;
 	}
 
 
