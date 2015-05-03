@@ -462,6 +462,25 @@ footer {
 		top: 10px;
 	}
 	
+	.homeContainer {
+		width: 100%;
+	}
+
+	.psstA {
+		display: none;
+	}
+
+	.infoArticle {
+
+	}
+
+	.infoArticleContainer {
+		width: 100%;
+	}
+
+	.sampleDescriptionContainer {
+		width: 100%;
+	}
 
 
 
