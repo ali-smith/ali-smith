@@ -456,12 +456,12 @@ footer {
 	}
 	.homeContainer {
 		left: 0;
-		/*padding-left: 5%;*/
+		padding-left: 5%;
 		width: 320px;
 	}
 	.psst {
 		left: 0;
-		/*padding-left: 5%;*/
+		padding-left: 5%;
 		width: 100%;
 	}
 	.infoArticle {
@@ -469,8 +469,8 @@ footer {
 		padding-left: 5%;
 	}
 	.infoArticleContainer {
-	max-width: 320px;
-	min-width: 0px;
+		max-width: 320px;
+		min-width: 0px;
 	}
 	.sampleDescriptionContainer {
 		width: 320px;
@@ -481,16 +481,16 @@ footer {
 	}
 	.samplesArrow {
 		bottom: 15px;
-		/*left: 5%;*/
+		left: 5%;
 		left: 0;
 	}
 	.counterArrow {
-		/*left: 5%;*/
+		left: 5%;
 		left: 0;
 	}
 	.contactArticle {
 		left: 0;
-		/*padding-left: 5%;*/
+		padding-left: 5%;
 		width: 320px;
 	}
 	.resumeIcons {
@@ -498,11 +498,11 @@ footer {
 	}
 	.arrow-up {
 		bottom: 30px;
-		/*left: 5%;*/
+		left: 5%;
 		left: 0;
 	}
 	footer {
-	/*	padding-left: 5%;*/
+		padding-left: 5%;
 		width: 320px;
 		left: 0;
 	}
