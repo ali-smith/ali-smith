@@ -479,14 +479,19 @@ footer {
 		display: inline;
 	}
 	.homeContainer {
-		left: 5%;
-		max-width: 560px;
+		left: 0;
+		padding-left: 5%;
+		width: 100%;
 	}
 	.psst {
-		left: 5%;
+		left: 0;
+		padding-left: 5%;
+		width: 100%;
 	}
 	.infoArticle {
-		left: 5%;
+		left: 0;
+		padding-left: 5%;
+		width: 100%;
 	}
 	.samplesArrow {
 		left: 5%;
@@ -495,7 +500,9 @@ footer {
 		left: 5%;
 	}
 	.contactArticle {
-		left: 5%;
+		left: 0;
+		padding-left: 5%;
+		width: 100%;
 	}
 	.arrow-up {
 		left: 5%;
