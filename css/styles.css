@@ -450,11 +450,16 @@ footer {
 		padding: 10px 5px 10px 5%;
 	}
 	#logo {
-		width: 10px;
-		height: auto;
+		/*width: 10px;
+		height: auto;*/
 	}
-	.aliSmith, .navLinksSpan {
-		
+	nav a {
+		margin-right: 5px; 
+	}
+	.navLinksSpan {
+		right: 0;
+		padding-right: 5%;
+		top: 10px;
 	}
 	/*.menuBars {
 		display: inline;
@@ -464,7 +469,7 @@ footer {
 		padding-left: 5%;
 		width: 320px;
 	}
-	.psst {
+	.internalLink . {
 		display: none;
 	}
 
