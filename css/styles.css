@@ -478,6 +478,31 @@ footer {
 	.menuBars {
 		display: inline;
 	}
+	.homeContainer {
+		left: 5%;
+		max-width: 560px;
+	}
+	.psst {
+		left: 5%;
+	}
+	.infoArticle {
+		left: 5%;
+	}
+	.samplesArrow {
+		left: 5%;
+	}
+	.counterArrow {
+		left: 5%;
+	}
+	.contactArticle {
+		left: 5%;
+	}
+	.arrow-up {
+		left: 5%;
+	}
+	footer {
+		padding-left: 5%;
+	}
 
 
 }
