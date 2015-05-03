@@ -486,6 +486,7 @@ footer {
 		/*width: 320px;
 		left: 0;*/
 		width: 320px;
+		overflow: hidden;
 	}
 
 	/*.bioH1, .bioH2, .bioP {
@@ -515,6 +516,7 @@ footer {
 	.contactContainer {
 		width: 320px;
 		padding-right: 0;
+		overflow: hidden;
 	}
 
 	.arrow-up {
