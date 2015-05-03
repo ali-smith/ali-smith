@@ -396,7 +396,27 @@ footer {
 	font-size: 12px;
 }
 
+/*-----media queries--------*/
 
+
+@media (max-width: 900px) {
+  	nav {
+    	background: #1c1c1c;
+    	font-size: 24px;
+  }
+	nav a {
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 650px) {
+ 	.samplesArrow {
+		bottom: 15px;
+	}
+	.resmueIcons {
+		left: 12%;
+	}
+}
 
 
 

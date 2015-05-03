@@ -10,8 +10,7 @@
 	}
 }
 
-@media only screen and (max-width: 650px), only screen and (max-device-width: 480px) {
-
+@media (max-width: 650px) {
  	.samplesArrow {
 		bottom: 15px;
 	}
