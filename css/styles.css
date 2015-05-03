@@ -132,7 +132,7 @@ nav a:hover {
 }
 
 .infoArticle {
-	min-height: 450px;
+	/*min-height: 450px;*/
 	position: absolute;
 	padding-right: 45px;
 	left: 12%;
