@@ -464,7 +464,10 @@ footer {
 	
 	.homeContainer {
 		width: 100%;
-		width: 320px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
 	
 	}
 
@@ -473,24 +476,42 @@ footer {
 	}
 
 	.infoArticle {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+
 
 	}
 
 	.infoArticleContainer {
 		width: 100%;
-		width: 320px;
+	
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
 
 	}
 
 	.sampleDescriptionContainer {
 		width: 100%;
-width: 320px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+
 
 	}
 
 	.contactArticle {
 		width: 100%;
-width: 320px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+
 
 	}
 
