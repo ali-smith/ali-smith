@@ -58,13 +58,13 @@ table {
 	border-spacing: 0;
 }
 
-/**
- * END Eric Meyer's Reset
- */
 
- /**
- *BEGIN Additional Reset
- */
+
+ 
+
+
+/*---------Ali Smith Additional Reset---------*/
+
 
 HTML {
 -webkit-font-smoothing: antialiased;
@@ -80,8 +80,31 @@ HTML {
      height: 0;
      }
 .clearfix { display: inline-block; }
+
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 /* close commented backslash hack */
+
+
+/*---------links reset--------*/
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
