@@ -464,6 +464,8 @@ footer {
 	
 	.homeContainer {
 		width: 100%;
+		min-width: 320px;
+		max-width: 568px;
 	}
 
 	.psstA {
@@ -476,10 +478,24 @@ footer {
 
 	.infoArticleContainer {
 		width: 100%;
+		min-width: 320px;
+		max-width: 568px;
 	}
 
 	.sampleDescriptionContainer {
 		width: 100%;
+		min-width: 320px;
+		max-width: 568px;
+	}
+
+	.contactArticle {
+		width: 100%;
+		min-width: 320px;
+		max-width: 568px;
+	}
+
+	.arrow-up {
+		display: none;
 	}
 
 
