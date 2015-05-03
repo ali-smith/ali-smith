@@ -466,10 +466,10 @@ footer {
 	}
 	.infoArticle {
 		/*left: 0;*/
-		/*padding-left: 5%;*/
+		padding-left: 5%;
 		width: 320px;
 
-		/*position: absolute;*/
+		position: relative;
 		padding-right: 0px;
 		left: 0;
 		top: 1px;
