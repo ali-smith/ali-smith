@@ -1,27 +1,27 @@
 
-nav {
-    background: #1c1c1c;
-    font-size: 24px;
-	color: white;
-	position: fixed;
-	padding: 35px;
-	width: 100%;
-	z-index: 1;
-	overflow: hidden;
+
+@media (max-width: 900px) {
+  	nav {
+    	background: #1c1c1c;
+    	font-size: 24px;
+  }
+	nav a {
+		margin-right: 20px;
+	}
+}
+
+@media only screen and (max-width: 650px), only screen and (max-device-width: 480px) {
+
+ 	.samplesArrow {
+		bottom: 15px;
+	}
+	.resmueIcons {
+		left: 12%;
+	}
+
+
 }
 
 
-nav a {
-	margin-right: 10px;
-}
 
-nav a:hover {
-	color: #9d9f9f;
-}
 
-.navLinksSpan {
-	font-family: 'Roboto Condensed', sans-serif;
-	position: absolute;
-  	right: 35px;
-  	top: 38px;
-}
