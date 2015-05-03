@@ -510,7 +510,9 @@ footer {
 	.arrow-up {
 		display: none;
 	}
-
+	section {
+		width: 320px;
+	}
 	
 }
 
