@@ -483,9 +483,8 @@ footer {
 	}
 
 	.infoArticleContainer {
-		/*width: 320px;
-		left: 0;*/
-		/*width: 320px;*/
+		min-width: auto;
+		max-width: auto;
 		
 	}
 
