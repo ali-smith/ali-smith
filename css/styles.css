@@ -448,10 +448,16 @@ footer {
 
 }
 
-@media only screen and (max-device-width: 568px) and (orientation : portrait){
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) { 
+
 	nav {
 		padding: 10px 5px 10px 5%;
 	}
+	#logo {
+		/*width: 10px;
+		height: auto;*/
+	}
+
 	nav a {
 		margin-right: 5px; 
 	}
@@ -461,40 +467,32 @@ footer {
 		padding-right: 5%;
 		top: 10px;
 	}
-	
-	.homeContainer {
 
+	.homeContainer {
 		left: 0;
 		padding-left: 5%;
-		/*width: 320px;*/
-
+		width: 320px;
 	}
-
-	.psst, .psstA {
+	.psstA {
 		display: none;
 	}
 
 	.infoArticle {
-		/*width: 320px;*/
+		top: 10px;
 		left: 0;
 		padding-left: 5%;
-	
-
+		padding-right: 5%;
 	}
-
 	.infoArticleContainer {
-		min-width: auto;
-		max-width: auto;
-		
+		max-width: 100%;
+		min-width: 0px;
 	}
-
-	/*.bioH1, .bioH2, .bioP {
-		width: 100px;
-	}*/ 
-
 	.sampleDescriptionContainer {
-		/*width: 320px;*/
-		/*width: 320px;*/
+		width: 320px;
+		height: 100%;
+		position: absolute;
+		left: 50%;
+		margin-left: -200px;
 	}
 	.samplesArrow {
 		bottom: 0;
@@ -505,24 +503,26 @@ footer {
 		left: 5%;
 	}
 	.contactArticle {
-		/*left: 0;
+		left: 0;
 		padding-left: 5%;
 		padding-right: 5%;
-		width: 320px;*/
-		/*width: 320px;*/
+		width: 320px;
 	}
-
-	.contactContainer {
-		/*width: 320px;*/
-		padding-right: 0;
-		word-wrap: normal;
+	.resumeIcons {
+		margin-top: 0px;
 	}
-
 	.arrow-up {
 		display: none;
 	}
+	footer {
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 320px;
+		left: 0;
+	}
 
 }
+
 
 
 
