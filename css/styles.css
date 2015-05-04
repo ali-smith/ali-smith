@@ -439,7 +439,7 @@ footer {
 		padding-left: 12%;
 	}
 	.sampleDescriptionContainer {
-		width: 400px;
+		/*width: 400px;*/
 		height: 100%;
 		position: absolute;
 		left: 50%;
@@ -466,7 +466,7 @@ footer {
 
 		left: 0;
 		padding-left: 5%;
-		width: 320px;
+		/*width: 320px;*/
 
 	}
 
