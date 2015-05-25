@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-// $("html,body").animate({scrollTop: 0}, 500);
+$("html,body").animate({scrollTop: 0}, 500);
 	
 $('.homeContainer').fadeIn(2000);
 $('.correctThem').fadeIn(2500);
@@ -9,6 +9,7 @@ $('.psst').fadeIn(2750);
 $('.internalLink').click(function() {
 
 	$('html, body').animate({
+		e.preventDefault();
 		scrollTop: $( $.attr(this, 'href') ).offset().top
 		}, 1000);
 		return false;
@@ -36,7 +37,7 @@ $('.sample-5, .sample-6, .sample-7, .sample-8, .sample-9, .sample-10').hover(fun
 });
 
 $('.thumb-hsus').click(function() {
-	event.preventDefault();
+	e.preventDefault();
 	$(this).addClass('underlineActive');
 	$('.thumb-hsus').not(this).removeClass('underlineActive');
 	$('#iframe-hsus').hide();
@@ -45,7 +46,7 @@ $('.thumb-hsus').click(function() {
 });
 
 $('.thumb-readybox').click(function() {
-	event.preventDefault();
+	e.preventDefault();
 	$(this).addClass('underlineActive');
 	$('.thumb-readybox').not(this).removeClass('underlineActive');
 	$('#iframe-readybox').hide();
@@ -54,7 +55,7 @@ $('.thumb-readybox').click(function() {
 });
 
 $('.thumb-cash4gold').click(function() {
-	event.preventDefault();
+	e.preventDefault();
 	$(this).addClass('underlineActive');
 	$('.thumb-cash4gold').not(this).removeClass('underlineActive');
 	$('#iframe-cash4gold').hide();
@@ -63,7 +64,7 @@ $('.thumb-cash4gold').click(function() {
 });
 
 $('.thumb-maxclarity').click(function() {
-	event.preventDefault();
+	e.preventDefault();
 	$(this).addClass('underlineActive');
 	$('.thumb-maxclarity').not(this).removeClass('underlineActive');
 	$('#iframe-maxclarity').hide();
@@ -72,7 +73,7 @@ $('.thumb-maxclarity').click(function() {
 });
 
 $('.thumb-lifelock').click(function() {
-	event.preventDefault();
+	e.preventDefault();
 	$(this).addClass('underlineActive');
 	$('.thumb-lifelock').not(this).removeClass('underlineActive');
 	$('#iframe-lifelock').hide();
@@ -81,7 +82,7 @@ $('.thumb-lifelock').click(function() {
 });
 
 $('.thumb-proflowers').click(function() {
-	event.preventDefault();
+	e.preventDefault();
 	$(this).addClass('underlineActive');
 	$('.thumb-proflowers').not(this).removeClass('underlineActive');
 	$('#iframe-proflowers').hide();
