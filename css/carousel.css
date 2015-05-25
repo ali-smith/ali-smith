@@ -27,55 +27,48 @@
 }
 
 .tvMargins {
-	/*border: 1px solid black;*/
 	padding-top: 30px;
 	height: 800px;
 }
 
 .tvWrapper {
-	/*border: 1px solid purple;*/
 	width: 500px;
 	margin: 0 auto;
 
 }
 
-
 .tvHeaderWrapper {
-	/*border: 1px solid orange;*/
 	max-width: 500px;
 	margin: 0 auto;
 }
 
 .tvCredits {
 	color: #FFF;
-/*  width: 320px;*/
-  border-left: 1px solid white;
-  margin-left: 145px;
-  padding-left: 20px;
-  margin-bottom: 40px;
-
+	border-left: 1px solid white;
+	margin-left: 145px;
+	padding-left: 20px;
+	margin-bottom: 40px;
 }
 
 .tvLogo {
-	/*border: 1px solid black;*/
 	height: 75px;
 	width: 150px;
 	position: relative;
-  bottom: -30px;
+	bottom: -30px;
 }
 
 .iframeCarouselWrapper {
-	/*border: 1px solid red;*/
 	height: 375px;
 }
 
 iframe {
 	position: absolute;
+	width: 500px;
+	height: 375px;
 }
 
 
 .tvDescriptionWrapper {
-	/*border: 1px solid black;*/
 	color: #FFF;	
 	max-width: 500px;
 	margin: 0 auto;
@@ -252,7 +245,21 @@ iframe {
 	background-size: 75px auto;
 }
 
+@media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
+ 	
+ 	iframe {
+	position: absolute;
+	width: 400px;
+	height: 300px;
+	}
 
+}
+
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) { 
+
+	
+
+}
 
 
 
