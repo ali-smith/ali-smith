@@ -250,10 +250,11 @@ iframe {
 		max-width: 400px;
 
 	}
+
 	.tvCredits {
 		max-width: 300px;
 	}
-	
+
  	iframe {
 		position: absolute;
 		width: 400px;
@@ -267,8 +268,6 @@ iframe {
 	.sample-7 > .tvMargins > .tvWrapper > .iframeCarouselWrapper {
 		height: 293px;
 	}
-
-
 
 	.blackFrame {
 		background-color: rgba(0, 0, 0, 0.25);
@@ -286,7 +285,42 @@ iframe {
 }
 
 @media only screen and (max-width: 320px), only screen and (max-device-width: 320px) { 
+	
+	tvHeaderWrapper {
+		max-width: 300px;
 
+	}
+
+	.tvCredits {
+		max-width: 200px;
+	}
+	
+ 	iframe {
+		position: absolute;
+		width: 300px;
+		height: 200px;
+	}
+	
+	.iframeCarouselWrapper {
+		height: 220px;
+	}
+
+	.sample-7 > .tvMargins > .tvWrapper > .iframeCarouselWrapper {
+		height: 193px;
+	}
+
+	.blackFrame {
+		background-color: rgba(0, 0, 0, 0.25);
+		height: 450px;
+		width: 300px;
+		margin-top: 165px;
+		z-index: -100;
+	}
+
+	.thumbs {
+		text-align: center;
+		width: 300px;
+	}
 	
 
 }
