@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$("html,body").animate({scrollTop: 0}, 500);
+// $("html,body").animate({scrollTop: 0}, 500);
 	
 $('.homeContainer').fadeIn(2000);
 $('.correctThem').fadeIn(2500);

@@ -34,7 +34,6 @@
 .tvWrapper {
 	width: 500px;
 	margin: 0 auto;
-
 }
 
 .tvHeaderWrapper {
@@ -247,10 +246,41 @@ iframe {
 
 @media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
  	
+ 	tvHeaderWrapper {
+		max-width: 400px;
+
+	}
+	.tvCredits {
+		max-width: 300px;
+	}
+	
  	iframe {
-	position: absolute;
-	width: 400px;
-	height: 300px;
+		position: absolute;
+		width: 400px;
+		height: 300px;
+	}
+	
+	.iframeCarouselWrapper {
+		height: 320px;
+	}
+
+	.sample-7 > .tvMargins > .tvWrapper > .iframeCarouselWrapper {
+		height: 293px;
+	}
+
+
+
+	.blackFrame {
+		background-color: rgba(0, 0, 0, 0.25);
+		height: 450px;
+		width: 400px;
+		margin-top: 165px;
+		z-index: -100;
+	}
+
+	.thumbs {
+		text-align: center;
+		width: 400px;
 	}
 
 }
