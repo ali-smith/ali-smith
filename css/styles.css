@@ -307,7 +307,251 @@ nav a:hover {
 	background-position: center;
 }
 
+/*----------------tv section----------------*/
 
+.sample-5, .sample-6, .sample-7, .sample-8, .sample-9, .sample-10 {
+	background-color: rgba(0, 0, 0, 0.50);
+	height: 800px;
+	width: 100%;
+	position: relative;
+	padding-left: 12%;
+	padding-right: 12%;
+	-webkit-transition: background-color 2s ease;
+	-o-transition: background-color 2s ease;
+	transition: background-color 2s ease;
+}
+.sampleFadeTV {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.blackFrame {
+	background-color: rgba(0, 0, 0, 0.25);
+	height: 476px;
+	width: 76%;
+	margin-top: 165px;
+	position: absolute;
+	z-index: -100;
+	left: 50%;
+	margin-left: -38%; 
+}
+
+.tvMargins {
+	padding-top: 30px;
+	height: 800px;
+}
+
+.tvWrapper {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.tvHeaderWrapper {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.tvCredits {
+	color: #FFF;
+	border-left: 1px solid white;
+	margin-left: 145px;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}
+
+.tvLogo {
+	height: 75px;
+	width: 150px;
+	position: relative;
+	bottom: -30px;
+}
+
+.iframeCarouselWrapper {
+	height: 375px;
+}
+
+iframe {
+	position: absolute;
+	width: 500px;
+	height: 375px;
+}
+
+
+.tvDescriptionWrapper {
+	color: #FFF;	
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.tvDescriptionWrapper h2 {
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+.activeVid {
+	display: block;
+}
+
+.hiddenVid {
+	display: none;
+}
+
+.thumbs {
+	text-align: center;
+}
+
+.underlineActive {
+	border-bottom: 1px solid white;
+}
+
+.thumb-one, .thumb-two, .thumb-three, .thumb-four, .thumb-five {
+	height: 60px;
+	width: 75px;
+	margin-top: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+/*------------hsus/sample-5 ------------*/
+
+.thumb-hsus {
+	margin-right: 10px;
+}
+
+.sample-5 .tvLogo {
+	background: url("../images/hsus_logo_white.png") bottom center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-5 .thumb-one {
+	background: url("../images/hsus-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-5 .thumb-two {
+	background: url("../images/hsus-thumb-two.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-5 .thumb-three {
+	background: url("../images/hsus-thumb-three.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+
+/*------------readybox/sample-6 ------------*/
+
+
+.thumb-readybox {
+	margin-right: 10px;
+}
+
+.sample-6 .tvLogo {
+	background: url("../images/readyboxLogo.png") bottom center no-repeat;
+	background-size: 100px auto;
+}
+
+.sample-6 .thumb-one {
+	background: url("../images/readybox-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-6 .thumb-two {
+	background: url("../images/readybox-thumb-two.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+/*------------cash4gold/sample-7 ------------*/
+
+
+.thumb-cash4gold {
+	margin-right: 10px;
+}
+
+.sample-7 .tvLogo {
+	background: url("../images/cash4goldLogo.png") bottom center no-repeat;
+	background-size: 125px auto;
+}
+
+.sample-7 .thumb-one {
+	background: url("../images/cash4gold-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-7 .thumb-two {
+	background: url("../images/cash4gold-thumb-two.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-7 .thumb-three {
+	background: url("../images/cash4gold-thumb-three.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-7 .thumb-four {
+	background: url("../images/cash4gold-thumb-four.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-7 .thumb-five {
+	background: url("../images/cash4gold-thumb-five.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+/*------------maxclarity/sample-8 ------------*/
+
+
+.thumb-maxclarity {
+	margin-right: 10px;
+}
+
+.sample-8 .tvLogo {
+	background: url("../images/maxclarityLogo.png") bottom center no-repeat;
+	background-size: 125px auto;
+}
+
+.sample-8 .thumb-one {
+	background: url("../images/maxclarity-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-8 .thumb-two {
+	background: url("../images/maxclarity-thumb-two.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+/*------------lifelock/sample-9 ------------*/
+
+
+.thumb-lifelock {
+	margin-right: 10px;
+}
+
+.sample-9 .tvLogo {
+	background: url("../images/lifelockLogo.png") bottom center no-repeat;
+	background-size: 125px auto;
+}
+
+.sample-9 .thumb-one {
+	background: url("../images/lifelock-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+/*------------proflowers/sample-10 ------------*/
+
+
+.thumb-proflowers {
+	margin-right: 10px;
+}
+
+.sample-10 .tvLogo {
+	background: url("../images/proflowersLogo.png") bottom center no-repeat;
+	background-size: 125px auto;
+}
+
+.sample-10 .thumb-one {
+	background: url("../images/proflowers-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
 
 /*----------------contact section----------------*/
 
@@ -442,10 +686,41 @@ footer {
 		margin-left: -200px;
 	}
 
-	iframe {
-	position: absolute;
-	width: 400px;
-	height: 300px;
+	/*----------tv section--------*/
+ 	tvHeaderWrapper {
+		max-width: 400px;
+
+	}
+
+	.tvCredits {
+		max-width: 300px;
+	}
+
+ 	iframe {
+		position: absolute;
+		width: 400px;
+		height: 300px;
+	}
+	
+	.iframeCarouselWrapper {
+		height: 320px;
+	}
+
+	.sample-7 > .tvMargins > .tvWrapper > .iframeCarouselWrapper {
+		height: 293px;
+	}
+
+	.blackFrame {
+		background-color: rgba(0, 0, 0, 0.25);
+		height: 450px;
+		width: 400px;
+		margin-top: 165px;
+		z-index: -100;
+	}
+
+	.thumbs {
+		text-align: center;
+		width: 400px;
 	}
 
 }
