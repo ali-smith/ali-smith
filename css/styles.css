@@ -376,15 +376,6 @@ iframe {
 	/*background-color: #000;*/
 }
 
-#iframe-hsus {
-	background: black url("../images/hsus_logo_white.png") center center no-repeat;
-}
-#iframe-readybox {background: black url("../images/readyboxLogo.png") center center no-repeat;}
-#iframe-cash4gold {background: black url("../images/cash4goldLogo.png") center center no-repeat;}
-#iframe-maxclarity {background: black url("../images/maxclarityLogo.png") center center no-repeat;}
-#iframe-lifelock {background: black url("../images/lifelockLogo.png") center center no-repeat;}
-#iframe-proflowers {background: black url("../images/proflowersLogo.png") center center no-repeat;}
-
 .tvDescriptionWrapper {
 	color: #FFF;	
 	max-width: 500px;
@@ -422,6 +413,10 @@ iframe {
 
 /*------------hsus/sample-5 ------------*/
 
+#iframe-hsus {
+	background: black url("../images/hsus_logo_white.png") center center no-repeat;
+}
+
 .thumb-hsus {
 	margin-right: 10px;
 }
@@ -449,6 +444,9 @@ iframe {
 
 /*------------readybox/sample-6 ------------*/
 
+#iframe-readybox {
+	background: black url("../images/readyboxLogo.png") center center no-repeat;
+}
 
 .thumb-readybox {
 	margin-right: 10px;
@@ -471,6 +469,9 @@ iframe {
 
 /*------------cash4gold/sample-7 ------------*/
 
+#iframe-cash4gold {
+	background: black url("../images/cash4goldLogo.png") center center no-repeat;
+}
 
 .thumb-cash4gold {
 	margin-right: 10px;
@@ -508,6 +509,9 @@ iframe {
 
 /*------------maxclarity/sample-8 ------------*/
 
+#iframe-maxclarity {
+	background: black url("../images/maxclarityLogo.png") center center no-repeat;
+}
 
 .thumb-maxclarity {
 	margin-right: 10px;
@@ -530,6 +534,9 @@ iframe {
 
 /*------------lifelock/sample-9 ------------*/
 
+#iframe-lifelock {
+	background: black url("../images/lifelockLogo.png") center center no-repeat;
+}
 
 .thumb-lifelock {
 	margin-right: 10px;
@@ -547,6 +554,9 @@ iframe {
 
 /*------------proflowers/sample-10 ------------*/
 
+#iframe-proflowers {
+	background: black url("../images/proflowersLogo.png") center center no-repeat;
+}
 
 .thumb-proflowers {
 	margin-right: 10px;

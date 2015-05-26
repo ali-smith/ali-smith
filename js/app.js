@@ -1,13 +1,13 @@
 $(document).ready(function() {
 
-// $("html,body").animate({scrollTop: 0}, 500);
+$("html,body").animate({scrollTop: 0}, 500);
 	
 $('.homeContainer').fadeIn(2000);
 $('.correctThem').fadeIn(2500);
 $('.psst').fadeIn(2750);
 
-$('.internalLink').click(function() {
-
+$('.internalLink').click(function(event) {
+	event.preventDefault();
 	$('html, body').animate({
 		scrollTop: $( $.attr(this, 'href') ).offset().top
 		}, 1000);
@@ -23,18 +23,7 @@ $('.sampleDescriptionContainer').hover(function() {
 	$(this).children('.sampleDescriptionCenter').fadeOut('slow');
 });
 
-//tv sample hover behaviors
-$('.sample-5, .sample-6, .sample-7, .sample-8, .sample-9, .sample-10').hover(function() {
-	$(this).addClass('sampleFadeTV');
-	$(this).children().children().children('.tvDescription').addClass('fontWhite');
-	$(this).children().children().children('.tvLogo.black').addClass('transparent');
-}, function() {
-	$(this).removeClass('sampleFadeTV');
-	$(this).children().children().children('.tvDescription').removeClass('fontWhite');
-	$(this).children().children().children('.tvLogo.black').removeClass('transparent');
-
-});
-
+//tv iframes src exchange
 $('.thumb-hsus').click(function(event) {
 	event.preventDefault();
 	$(this).addClass('underlineActive');
