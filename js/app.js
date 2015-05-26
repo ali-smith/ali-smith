@@ -38,7 +38,8 @@ $('.sample-5, .sample-6, .sample-7, .sample-8, .sample-9, .sample-10').hover(fun
 $('.thumb-hsus').click(function(event) {
 	event.preventDefault();
 	$(this).addClass('underlineActive');
-	$('.thumb-hsus').not(this).removeClass('underlineActive');
+	$('.thumb-hsus, .thumb-readybox, .thumb-cash4gold, .thumb-maxclarity, .thumb-lifelock, .thumb-proflowers').not(this).removeClass('underlineActive');
+	$('#iframe-readybox, #iframe-cash4gold, #iframe-maxclarity, #iframe-lifelock, #iframe-proflowers').attr('src', '');
 	$('#iframe-hsus').hide();
 	$('#iframe-hsus').delay(600).attr('src', $(this).attr('href'));
 	$('#iframe-hsus').fadeIn('slow');
@@ -47,7 +48,8 @@ $('.thumb-hsus').click(function(event) {
 $('.thumb-readybox').click(function(event) {
 	event.preventDefault();
 	$(this).addClass('underlineActive');
-	$('.thumb-readybox').not(this).removeClass('underlineActive');
+	$('.thumb-hsus, .thumb-readybox, .thumb-cash4gold, .thumb-maxclarity, .thumb-lifelock, .thumb-proflowers').not(this).removeClass('underlineActive');
+	$('#iframe-hsus, #iframe-cash4gold, #iframe-maxclarity, #iframe-lifelock, #iframe-proflowers').attr('src', '');
 	$('#iframe-readybox').hide();
 	$('#iframe-readybox').delay(600).attr('src', $(this).attr('href'));
 	$('#iframe-readybox').fadeIn('slow');
@@ -56,7 +58,8 @@ $('.thumb-readybox').click(function(event) {
 $('.thumb-cash4gold').click(function(event) {
 	event.preventDefault();
 	$(this).addClass('underlineActive');
-	$('.thumb-cash4gold').not(this).removeClass('underlineActive');
+	$('.thumb-hsus, .thumb-readybox, .thumb-cash4gold, .thumb-maxclarity, .thumb-lifelock, .thumb-proflowers').not(this).removeClass('underlineActive');
+	$('#iframe-hsus, #iframe-readybox, #iframe-maxclarity, #iframe-lifelock, #iframe-proflowers').attr('src', '');
 	$('#iframe-cash4gold').hide();
 	$('#iframe-cash4gold').delay(600).attr('src', $(this).attr('href'));
 	$('#iframe-cash4gold').fadeIn('slow');
@@ -65,7 +68,8 @@ $('.thumb-cash4gold').click(function(event) {
 $('.thumb-maxclarity').click(function(event) {
 	event.preventDefault();
 	$(this).addClass('underlineActive');
-	$('.thumb-maxclarity').not(this).removeClass('underlineActive');
+	$('.thumb-hsus, .thumb-readybox, .thumb-cash4gold, .thumb-maxclarity, .thumb-lifelock, .thumb-proflowers').not(this).removeClass('underlineActive');
+	$('#iframe-hsus, #iframe-cash4gold, #iframe-readybox, #iframe-lifelock, #iframe-proflowers').attr('src', '');
 	$('#iframe-maxclarity').hide();
 	$('#iframe-maxclarity').delay(600).attr('src', $(this).attr('href'));
 	$('#iframe-maxclarity').fadeIn('slow');
@@ -74,7 +78,8 @@ $('.thumb-maxclarity').click(function(event) {
 $('.thumb-lifelock').click(function(event) {
 	event.preventDefault();
 	$(this).addClass('underlineActive');
-	$('.thumb-lifelock').not(this).removeClass('underlineActive');
+	$('.thumb-hsus, .thumb-readybox, .thumb-cash4gold, .thumb-maxclarity, .thumb-lifelock, .thumb-proflowers').not(this).removeClass('underlineActive');
+	$('#iframe-hsus, #iframe-cash4gold, #iframe-readybox, #iframe-maxclarity, #iframe-proflowers').attr('src', '');
 	$('#iframe-lifelock').hide();
 	$('#iframe-lifelock').delay(600).attr('src', $(this).attr('href'));
 	$('#iframe-lifelock').fadeIn('slow');
@@ -83,7 +88,8 @@ $('.thumb-lifelock').click(function(event) {
 $('.thumb-proflowers').click(function(event) {
 	event.preventDefault();
 	$(this).addClass('underlineActive');
-	$('.thumb-proflowers').not(this).removeClass('underlineActive');
+	$('.thumb-hsus, .thumb-readybox, .thumb-cash4gold, .thumb-maxclarity, .thumb-lifelock, .thumb-proflowers').not(this).removeClass('underlineActive');
+	$('#iframe-hsus, #iframe-cash4gold, #iframe-readybox, #iframe-maxclarity, #iframe-lifelock').attr('src', '');
 	$('#iframe-proflowers').hide();
 	$('#iframe-proflowers').delay(600).attr('src', $(this).attr('href'));
 	$('#iframe-proflowers').fadeIn('slow');
