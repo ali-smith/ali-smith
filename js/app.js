@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$("html,body").animate({scrollTop: 0}, 500);
+// $("html,body").animate({scrollTop: 0}, 500);
 	
 $('.homeContainer').fadeIn(2000);
 $('.correctThem').fadeIn(2500);
@@ -14,13 +14,20 @@ $('.internalLink').click(function(event) {
 		return false;
 });
 
-//web sample hover behaviors
+//web sample hover fade
 $('.sampleDescriptionContainer').hover(function() {
 	$(this).parent('.sampleDescription').addClass('sampleFade');
 	$(this).children('.sampleDescriptionCenter').fadeIn('slow');
 }, function() {
 	$(this).parent('.sampleDescription').removeClass('sampleFade');
 	$(this).children('.sampleDescriptionCenter').fadeOut('slow');
+});
+
+//tv sample hover fade
+$('.sample-5, .sample-6, .sample-7, .sample-8, .sample-9, .sample-10').hover(function() {
+	$(this).addClass('sampleFadeTV');
+}, function() {
+	$(this).removeClass('sampleFadeTV');
 });
 
 //tv iframes src exchange
