@@ -125,7 +125,7 @@ nav a:hover {
 /*------------info section---------*/
 
 .infoSection {
-	min-height: 850px;
+	min-height: 650px;
 	width: 100%;
 	position: relative;
 }
@@ -176,7 +176,7 @@ nav a:hover {
 	line-height: 40px;
 	position: absolute;
 	max-width: 200px;
-	bottom: 155px;
+	bottom: 80px;
 	left: 12%; 
 }
 
