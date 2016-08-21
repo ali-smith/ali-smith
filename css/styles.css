@@ -234,7 +234,7 @@ nav a:hover {
 	height: 50px;
 }
 
-.sample-1, .sample-2, .sample-3, .sample-4 {
+.sample-A, .sample-B, .sample-C, .sample-D, .sample-E, .sample-1, .sample-2, .sample-3, .sample-4 {
 	height: 800px;
 	width: 100%;
 	position: relative;
@@ -279,6 +279,42 @@ nav a:hover {
 	  margin: 25px 10px;
 }
 
+.sample-A {
+	background: url("../images/tastetoutshout.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-B {
+	background: url("../images/foodiemedia.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.sample-C {
+	background: url("../images/vmsaonline.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-D {
+	background: url("../images/unitedbakery.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-E {
+	background: url("../images/larrysheavenly.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .sample-1 {
 	background: url("../images/orion.jpg");
 	background-repeat: no-repeat;
@@ -306,6 +342,7 @@ nav a:hover {
 	background-size: cover;
 	background-position: center;
 }
+
 
 /*----------------tv section----------------*/
 
