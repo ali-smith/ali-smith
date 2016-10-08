@@ -234,7 +234,7 @@ nav a:hover {
 	height: 50px;
 }
 
-.sample-A, .sample-B, .sample-C, .sample-D, .sample-E, .sample-1, .sample-2, .sample-3, .sample-4 {
+.sample-A, .sample-B, .sample-C, .sample-D, .sample-E, .sample-F, .sample-1, .sample-2, .sample-3, .sample-4 {
 	height: 800px;
 	width: 100%;
 	position: relative;
@@ -302,13 +302,20 @@ nav a:hover {
 }
 
 .sample-D {
-	background: url("../images/unitedbakery.jpg");
+	background: url("../images/purveyorskitchen.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 .sample-E {
+	background: url("../images/unitedbakery.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-F {
 	background: url("../images/larrysheavenly.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -847,10 +854,3 @@ footer {
 	}
 
 }
-
-
-
-
-
-
-
