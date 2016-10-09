@@ -12,6 +12,10 @@ html {
 	display: none;
 }
 
+.zeroHeight {
+	height: 0px;
+}
+
 .vert-center {
   transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -57,10 +61,50 @@ nav a:hover {
   	top: 38px;
 }
 
-.menuBars {
-	color: rgba(157, 159, 159, 0.75);
+.navLinksSpan-mobile {
+	font-family: 'Roboto Condensed', sans-serif;
+	float: right;
+	display: block;
+}
+
+.navLinksSpan-mobile i.fa.fa-bars {
+	padding-right: 20px;
+	font-size: 34px;
+	cursor: pointer;
 	display: none;
 }
+
+.navLinksSpan-mobile i.fa.fa-bars:hover {
+	color: #9d9f9f;  
+}
+
+.navLinksSpan-mobile i.fa.fa-bars,
+.navLinksSpan-mobile a.internalLink {
+	float: right;
+	clear: both;
+}
+
+.navLinksSpan-mobile a.internalLink {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.mobileMenu {
+    clear: both;
+    float: right;
+    height: 0px;
+   	opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.mobileMenu.showMenu {
+	height: 140px;
+	opacity: 1;
+}
+
 
 
 /*--------home section----------*/
@@ -732,7 +776,24 @@ footer {
 }
 
 @media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
- 	
+
+	.navLinksSpan {
+		display: none;
+	}
+
+	.navLinksSpan-mobile {
+		display: block;
+		float: right;
+	}
+
+	nav h1.aliSmith {
+		float: left;
+	}
+
+	.navLinksSpan-mobile i.fa.fa-bars {
+		display: block;
+	}
+
  	.samplesArrow {
 		bottom: 15px;
 	}
