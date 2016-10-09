@@ -91,26 +91,9 @@ $('.thumb-proflowers').click(function(event) {
 	$('#iframe-proflowers').fadeIn('slow');
 });
 
+// mobile nav
+$('.fa-bars').click(function(event) {
+	$('.mobileMenu').toggleClass('showMenu');
+});
 
 });//doc ready
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
