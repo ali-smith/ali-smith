@@ -236,7 +236,7 @@ nav a:hover {
 }
 
 .sampleP {
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .sample-A, .sample-B, .sample-C, .sample-D, .sample-E, .sample-F, .sample-1, .sample-2, .sample-3, .sample-4 {
@@ -277,7 +277,6 @@ nav a:hover {
 
 .sampleDescriptionCenter h1 {
 	font-size: 30px;
-	margin-bottom: 20px;
 }
 
 .fa-github.fa-lg, .fa-external-link-square.fa-lg {
