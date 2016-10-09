@@ -1,476 +1,860 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>psst!</title>
-	<!-- this site fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Hind:400, 600' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed: 400, 700' rel='stylesheet' type='text/css'>
-	<!-- shopurr font -->
-	<link href="http://fonts.googleapis.com/css?family=Miniver" rel="stylesheet" type="text/css">
-	<!-- nebul-yeah font -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<!-- flock finder font -->
-	<link href='http://fonts.googleapis.com/css?family=Overlock' rel='stylesheet' type='text/css'>
-	<!-- hot cold font -->
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+
+
+/*----------universal-----------*/
+
+html {
+	font-family: 'Hind', sans-serif;
+	overflow-x: hidden;
+}
+
+.hidden	{
+	display: none;
+}
+
+.vert-center {
+  transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+}
+
+.cursorDefault {
+	cursor: default;
+}
+
+
+/*--------nav section----------*/
+
+nav {
+	background: -webkit-linear-gradient(rgba(0,0,0,.175),rgba(255,255,255,0));
+	background: -moz-linear-gradient(rgba(0,0,0,.175),rgba(255,255,255,0));
+	background: -o-linear-gradient(rgba(0,0,0,.175),rgba(255,255,255,0));
+	background: linear-gradient(rgba(0,0,0,.175),rgba(255,255,255,0));
+	font-size: 18px;
+	color: white;
+	position: fixed;
+	padding: 35px;
+	width: 100%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+nav a {
+	margin-right: 10px;
+}
+
+nav a:hover {
+	color: #9d9f9f;
+}
+
+.navLinksSpan {
+	font-family: 'Roboto Condensed', sans-serif;
+	position: absolute;
+  	right: 35px;
+  	top: 38px;
+}
+
+.menuBars {
+	color: rgba(157, 159, 159, 0.75);
+	display: none;
+}
+
+
+/*--------home section----------*/
+
+.homeSection {
+	background: url("../images/1280x-slate-gradient.jpg") no-repeat center;
+	background-size: cover;
+	height: 100vh;
+  	width: 100%;
+}
+
+.homeContainer {
+	height: auto;
+	width: 75%;
+	max-width: 600px;
+  	transform: translateY(-50%);
+  	-moz-transform: translateY(-50%);
+  	-webkit-transform: translateY(-50%);
+  	-o-transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	left: 12%;
+	display: none;
+}
+
+.homeContainer h1 {
+	color: rgba(255, 255, 255, 1.0);
+	font-size: 48px;
+	line-height: 62px;
+	margin-bottom: 15px; 
+}
+
+.fontSize {
+	font-size: 56px;
+}
+
+.homeContainer p {
+	color: rgba(255, 255, 255, .90);
+	font-size: 38px;
+ 	display: none;
+}
+
+.psst	{
+	position: absolute;
+	left: 12%;
+	bottom: 25%;
+	display: none;
+}
+
+.psst p{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #006075;
+	font-size: 20px;
+	margin-right: 5px;
+	display: inline;
+}
+
+.psst p:hover {
+	color: #008ba9;
+}
+
+/*------------info section---------*/
+
+.infoSection {
+/*	min-height: 650px;*/
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.infoArticle {
+	position: absolute;
+	padding-right: 45px;
+	left: 12%;
+	top: 100px;
+	border-right: 1px solid #4c4c4c;
+}
+
+.infoArticleContainer {
+	max-width: 600px;
+	min-width: 350px;
+}
+
+.infoArticleContainer h1 {
+	font-family: 'Hind', sans-serif;
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: 600;
+	padding: 15px 0 20px 0;
+}
+
+.infoArticleContainer h2 {
+	font-family: 'Hind', sans-serif;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 400;
+	padding: 15px 0 20px 0;
+}
+
+.highlight {
+	color: #007088;
+}
+
+.bioP {
+	font-size: 20px;
+	line-height: 30px;
+	padding-bottom: 20px;
+}
+
+
+.samplesArrow {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #9d9f9f;
+	line-height: 40px;
+	position: absolute;
+	max-width: 200px;
+	bottom: 80px;
+	left: 12%; 
+}
+
+.samplesArrow:hover {
+	color: #000;
+}
+
+.arrow-down-info {
+	width: 0; 
+	height: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #9d9f9f;
+}
+
+.samplesArrow:hover .arrow-down-info {
+	border-top: 10px solid #000;
+}
+
+
+/*-----------samples section---------*/
+
+.counterArrow {
+	background: rgba(157, 159, 159, 0.75);
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	color: #e0e3e3;
+	text-align: center;
+	line-height: 40px;
+	width: 47px;
+	height: 155px;
+	position: absolute;
+	left: 12%;
+	bottom: 0;
+}
+
+.counterArrow:hover {
+	color: #FFF;
+} 
+
+.arrow-down {
+	height: 0;
+	width: 0; 
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #e0e3e3;
+}
+
+.counterArrow:hover .arrow-down {
+	border-top: 10px solid #FFF;
+}
+
+.counterAnchor {
+	border: 1px solid red;
+	height: 50px;
+}
+
+.sampleP {
+	margin-top: 20px;
+}
+
+.sample-A, .sample-B, .sample-C, .sample-D, .sample-E, .sample-F, .sample-1, .sample-2, .sample-3, .sample-4 {
+	height: 800px;
+	width: 100%;
+	position: relative;
+}
+
+.sampleDescription {
+	transition: background-color 1s ease;
+	-webkit-transition: background-color 1s ease;
+	-o-transition: background-color 1s ease;
+	width: 100%;
+	height: 100%;
+}
+
+.sampleFade {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.sampleDescriptionContainer {
+	font-size: 30px;
+	color: rgba(255, 255, 255, 0.85);
+	text-align: center;
+	width: 500px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -250px;
+}
+
+.sampleDescriptionCenter {
+	-webkit-transition: display 2s ease;
+	-o-transition: display 2s ease;
+	transition: display 2s ease;
+	display: none;
+}
+
+.sampleDescriptionCenter h1 {
+	font-size: 30px;
+}
+
+.fa-github.fa-lg, .fa-external-link-square.fa-lg {
+	  margin: 25px 10px;
+}
+
+.sample-A {
+	background: url("../images/tastetoutshout.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-B {
+	background: url("../images/foodiemedia.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.sample-C {
+	background: url("../images/vmsaonline.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-D {
+	background: url("../images/purveyorskitchen.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-E {
+	background: url("../images/unitedbakery.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-F {
+	background: url("../images/larrysheavenly.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-1 {
+	background: url("../images/orion.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-2 {
+	background: url("../images/shopurr.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.sample-3 {
+	background: url("../images/hotCold.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.sample-4 {
+	background: url("../images/flamingos.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*----------------tv section----------------*/
+
+.sample-5, .sample-6, .sample-7, .sample-8, .sample-9, .sample-10 {
+	background-color: rgba(0, 0, 0, 0.50);
+	height: 800px;
+	width: 100%;
+	position: relative;
+	padding-left: 12%;
+	padding-right: 12%;
+	-webkit-transition: background-color 2s ease;
+	-o-transition: background-color 2s ease;
+	transition: background-color 2s ease;
+}
+.sampleFadeTV {
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.blackFrame {
+	background-color: rgba(0, 0, 0, 0.25);
+	height: 476px;
+	width: 76%;
+	margin-top: 165px;
+	position: absolute;
+	z-index: -100;
+	left: 50%;
+	margin-left: -38%; 
+}
+
+.tvMargins {
+	padding-top: 30px;
+	height: 800px;
+}
+
+.tvWrapper {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.tvHeaderWrapper {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.tvCredits {
+	color: #FFF;
+	border-left: 1px solid white;
+	margin-left: 145px;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}
+
+.tvLogo {
+	height: 75px;
+	width: 150px;
+	position: relative;
+	bottom: -30px;
+}
+
+.iframeCarouselWrapper {
+	height: 375px;
+}
+
+iframe {
+	position: absolute;
+	width: 500px;
+	height: 375px;
+	/*background-color: #000;*/
+}
+
+.tvDescriptionWrapper {
+	color: #FFF;	
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.tvDescriptionWrapper h2 {
+	margin-bottom: 20px;
+	font-style: italic;
+}
+
+.activeVid {
+	display: block;
+}
+
+.hiddenVid {
+	display: none;
+}
+
+.thumbs {
+	text-align: center;
+}
+
+.underlineActive {
+	border-bottom: 1px solid white;
+}
+
+.thumb-one, .thumb-two, .thumb-three, .thumb-four, .thumb-five {
+	height: 60px;
+	width: 75px;
+	margin-top: 10px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+/*------------hsus/sample-5 ------------*/
+
+#iframe-hsus {
+	background: black url("../images/hsus_logo_white.png") center center no-repeat;
+}
+
+.thumb-hsus {
+	margin-right: 10px;
+}
+
+.sample-5 .tvLogo {
+	background: url("../images/hsus_logo_white.png") bottom center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-5 .thumb-one {
+	background: url("../images/hsus-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-5 .thumb-two {
+	background: url("../images/hsus-thumb-two.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-5 .thumb-three {
+	background: url("../images/hsus-thumb-three.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+
+/*------------readybox/sample-6 ------------*/
+
+#iframe-readybox {
+	background: black url("../images/readyboxLogo.png") center center no-repeat;
+}
+
+.thumb-readybox {
+	margin-right: 10px;
+}
+
+.sample-6 .tvLogo {
+	background: url("../images/readyboxLogo.png") bottom center no-repeat;
+	background-size: 100px auto;
+}
+
+.sample-6 .thumb-one {
+	background: url("../images/readybox-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-6 .thumb-two {
+	background: url("../images/readybox-thumb-two.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+/*------------cash4gold/sample-7 ------------*/
+
+#iframe-cash4gold {
+	background: black url("../images/cash4goldLogo.png") center center no-repeat;
+}
+
+.thumb-cash4gold {
+	margin-right: 10px;
+}
+
+.sample-7 .tvLogo {
+	background: url("../images/cash4goldLogo.png") bottom center no-repeat;
+	background-size: 125px auto;
+}
+
+.sample-7 .thumb-one {
+	background: url("../images/cash4gold-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-7 .thumb-two {
+	background: url("../images/cash4gold-thumb-two.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-7 .thumb-three {
+	background: url("../images/cash4gold-thumb-three.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-7 .thumb-four {
+	background: url("../images/cash4gold-thumb-four.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-7 .thumb-five {
+	background: url("../images/cash4gold-thumb-five.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+/*------------maxclarity/sample-8 ------------*/
+
+#iframe-maxclarity {
+	background: black url("../images/maxclarityLogo.png") center center no-repeat;
+}
+
+.thumb-maxclarity {
+	margin-right: 10px;
+}
+
+.sample-8 .tvLogo {
+	background: url("../images/maxclarityLogo.png") bottom center no-repeat;
+	background-size: 125px auto;
+}
+
+.sample-8 .thumb-one {
+	background: url("../images/maxclarity-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+.sample-8 .thumb-two {
+	background: url("../images/maxclarity-thumb-two.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+/*------------lifelock/sample-9 ------------*/
+
+#iframe-lifelock {
+	background: black url("../images/lifelockLogo.png") center center no-repeat;
+}
+
+.thumb-lifelock {
+	margin-right: 10px;
+}
+
+.sample-9 .tvLogo {
+	background: url("../images/lifelockLogo.png") bottom center no-repeat;
+	background-size: 125px auto;
+}
+
+.sample-9 .thumb-one {
+	background: url("../images/lifelock-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+/*------------proflowers/sample-10 ------------*/
+
+#iframe-proflowers {
+	background: black url("../images/proflowersLogo.png") center center no-repeat;
+}
+
+.thumb-proflowers {
+	margin-right: 10px;
+}
+
+.sample-10 .tvLogo {
+	background: url("../images/proflowersLogo.png") bottom center no-repeat;
+	background-size: 125px auto;
+}
+
+.sample-10 .thumb-one {
+	background: url("../images/proflowers-thumb-one.png") center center no-repeat;
+	background-size: 75px auto;
+}
+
+/*----------------contact section----------------*/
+
+.contactSection {
+	background-color: #e6e6e6;
+	height: 800px;
+	width: 100%;
+	position: relative;
+}
+
+.contactArticle {
+	position: absolute;
+	padding-right: 45px;
+	left: 12%;
+	top: 100px;
+	border-right: 1px solid #4c4c4c;
+}
+
+.contactContainer {
+	font-size: 20px;
+	line-height: 30px;
+	max-width: 600px;
+	min-width: 350px;
+	position: relative;
+	padding-right: 45px;
+}
+
+.contactContainer h1 {
+	margin-bottom: 15px;
+}
+
+#infoPic {
+	width: 250px;
+	height: 250px;
+	margin: 30px 30px 30px 0;
+	float: left;
+}
+
+.resumeIcons {
+	margin-top: 162px;
+	width: 200px;
+	float: left;
+}
+
+.resumeIcons .highlight:hover {
+	color: #008ba9;
+}
+
+.icons	{
+	margin-top: 20px;
+}
+
+a#linkedin, fa-linkedin-square, .fa-envelope-square, .fa-twitter-square, .fa-instagram {
+	color: #007088;
+	margin-right: 11px;
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid #9d9f9f;
+	position: absolute;
+	bottom: 155px;
+	left: 12%;
+}
+
+.arrow-up:hover {
+	border-bottom: 15px solid #000;
+}
+
+
+/*----------------footer----------------*/
+
+footer {
+	background-color: #e6e6e6;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.footerP {
+	max-width: 600px; 
+	margin: 0 auto;
+}
+
+.font20 {
+	font-size: 12px;
+}
+
+
+
+/*-----media queries--------*/
+
+
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+  	
+  	nav {
+    	background: #1c1c1c;
+    	font-size: 24px;
+  	}
+	nav a {
+		margin-right: 20px;
+	}
+
+	.contactArticle, .infoArticle {
+		border: none;
+	}
+
+}
+
+@media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
+ 	
+ 	.samplesArrow {
+		bottom: 15px;
+	}
+	.resumeIcons {
+		margin-top: 0px;
+	}
+	.arrow-up {
+		bottom: 30px;
+	}
+	footer {
+		padding-left: 12%;
+	}
+	.sampleDescriptionContainer {
+		width: 400px;
+		height: 100%;
+		position: absolute;
+		left: 50%;
+		margin-left: -200px;
+	}
+
+	/*----------tv section--------*/
+ 	tvHeaderWrapper {
+		max-width: 400px;
+
+	}
+
+	.tvCredits {
+		max-width: 300px;
+	}
+
+ 	iframe {
+		position: absolute;
+		width: 400px;
+		height: 300px;
+	}
 	
-	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/reset.css"/>
-	<link rel="stylesheet" href="css/styles.css"/>
-	 
+	.iframeCarouselWrapper {
+		height: 320px;
+	}
 
-	<!-- favicon -->
-	<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
-	<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="favicons/manifest.json">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-	<!-- /favicon -->
-</head>
-<body>
-	<a class="internalLink" id="topA"></a>
+	.sample-7 > .tvMargins > .tvWrapper > .iframeCarouselWrapper {
+		height: 293px;
+	}
 
-<!-- top nav -->
-	<nav>		
-		<h1 class="aliSmith"><a class="internalLink" href="#topA"><img id="logo" src="images/logo.png" alt=""></a></h1>
-		<span class="navLinksSpan">
-		<a class="internalLink" href="#websitesA" id="websitesID">websites</a>
-		<a class="internalLink" href="#webA" id="webID">web apps</a>
-		<a class="internalLink" href="#tvA" id="tvID">videos</a>
-		<a class="internalLink" href="#contactA" id="contactID">contact</a>
-		</span>
-	</nav>
+	.blackFrame {
+		background-color: rgba(0, 0, 0, 0.25);
+		height: 450px;
+		width: 400px;
+		margin-top: 165px;
+		z-index: -100;
+	}
 
-	<section class="homeSection">
-		<div class="homeContainer cursorDefault">
-			<h1 class"somePeople">Some people call me the <span class="fontSize">Website Whisperer</span>.</h1>
-			<p class="correctThem">I don't correct them.</p>
-		</div>
-		<div class="psst">
-		<a class="internalLink psstA" href="#infoA"><p>(psst!)</p></a>
-		</div>
-	</section>
-	
-<!-- intro -->
-	<a id="infoA"></a>
-	<section class="infoSection">
-		<article class="infoArticle clearfix">
-			<div class="infoArticleContainer cursorDefault">
-				<h1 class="bioH1">Other people call me <span class="highlight">Ali Smith</span>.  I don't mind.</h1> 
-				<h2 class="bioH2">
-				I'm a <span class="highlight">Digital Content Manager </span> and <span class="highlight">Front-End Designer &amp; Developer</span> specializing in <span class="highlight">WordPress, Copywriting</span> and <span class="highlight">Graphic Design</span>.
-				</h2> 
-				<p class="bioP">
-			 	I've been helping businesses <span class="highlight">build their brands</span> for over 15 years.
-				</p>
-			</div>  
-		</article>
-		<a class="internalLink" href="#websitesA" id="samplesID"><p class="bioP samplesArrow">samples<br/><i class="arrow-down-info"></i></p></a>
-	</section>
+	.thumbs {
+		text-align: center;
+		width: 400px;
+	}
 
-<!-- websites -->	
-	<a id="websitesA"></a>	
-	<section class="samplesSection">
-		
-		<!-- tastetoutshout -->
-		<div class="sample-A">
-			<div class="sampleDescription ">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-						<h1 class="sampleH1">WordPress</br>+ WooCommerce Site</h1>
-						<p class="sampleP">design | development</br>graphics | copywriting</p>
-						<p class="sampleP">tastetoutshout.com</p>
-						<a href="http://www.tastetoutshout.com/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-						
-				
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#sampleB"><p class="counterArrow">1|6<br/><i class="arrow-down"></i></p></a>
-		</div>
+}
 
-		<!-- foodiemedia -->
-		<div class="sample-B">
-			<a id="sampleB"></a>
-			<div class="sampleDescription">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-						<h1 class="sampleH1">WordPress Site</h1>
-						<p class="sampleP">design | development</br>graphics | copywriting</p>
-						<p class="sampleP">foodiemedia.com</p>
-						<a href="http://www.foodiemedia.com/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#sampleC"><p class="counterArrow">2|6<br/><i class="arrow-down"></i></p></a>
-		</div>
+@media only screen and (max-width: 320px), only screen and (max-device-width: 320px) { 
 
-		<!-- vmsa -->	
-		<div class="sample-C">
-			<a id="sampleC"></a>
-			<div class="sampleDescription">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-						<h1 class="sampleH1">WordPress Site</h1>
-						<p class="sampleP">design | development</br>graphics | copywriting</p>
-						<p>vmsaonline.com</p>
-						<a href="http://vmsaonline.com/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#sampleD"><p class="counterArrow">3|6<br/><i class="arrow-down"></i></p></a>
-		</div>
+	nav {
+		padding: 10px 5px 10px 5%;
+	}
+	nav a {
+		margin-right: 5px; 
+	}
+	.navLinksSpan {
+		right: 0;
+		padding-right: 5%;
+		top: 10px;
+	}
+	.homeContainer {
+		left: 0;
+		padding-left: 5%;
+		width: 320px;
+	}
+	.psstA {
+		display: none;
+	}
+	.infoArticle {
+		top: 10px;
+		left: 0;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.infoArticleContainer {
+		max-width: 100%;
+		min-width: 0px;
+	}
+	.sampleDescriptionContainer {
+		width: 320px;
+		height: 100%;
+		position: absolute;
+		left: 50%;
+		margin-left: -160px;
+	}
+	.samplesArrow {
+		bottom: 0;
+		padding-left: 5%;
+		left: 0;
+	}
+	.counterArrow {
+		left: 5%;
+	}
+	.contactArticle {
+		left: 0;
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 320px;
+	}
+	.resumeIcons {
+		margin-top: 0px;
+	}
+	.arrow-up {
+		display: none;
+	}
+	footer {
+		padding-left: 5%;
+		padding-right: 5%;
+		width: 320px;
+		left: 0;
+	}
 
-		<!-- purveyorskitchen -->	
-		<div class="sample-D">
-			<a id="sampleC"></a>
-			<div class="sampleDescription">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-						<h1 class="sampleH1">WordPress</br>+ WooCommerce Site</h1>
-						<p class="sampleP">design | development</br>graphics</p>
-						<p>purveyorskitchen.com</p>
-						<a href="http://purveyorskitchen.com/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#sampleE"><p class="counterArrow">4|6<br/><i class="arrow-down"></i></p></a>
-		</div>
-		
-		<!-- unitedbakery -->	
-		<div class="sample-E">
-			<a id="sampleD"></a>
-			<div class="sampleDescription">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-					<h1 class="sampleH1">WordPress Site</h1>
-					<p class="sampleP">design | development</br>graphics | copywriting</p>
-					<p>unitedbakery.com</p>
-					<a href="http://www.unitedbakery.com/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#sampleF" class="counterBackground"><p class="counterArrow">5|6<br/><i class="arrow-down"></i></p></a>
-		</div>
-
-		<!-- larrysheavenly -->	
-		<div class="sample-F">
-			<a id="sampleE"></a>
-			<div class="sampleDescription">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-					<h1 class="sampleH1">WordPress</br>+ WooCommerce Site</h1>
-					<p class="sampleP">design | development</p>
-					<p>larrysheavenly.com</p>
-					<a href="http://www.larrysheavenly.com/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#webA" class="counterBackground"><p class="counterArrow">6|6<br/><i class="arrow-down"></i></p></a>
-		</div>
-	</section>
-
-<!-- web apps -->	
-	<a id="webA"></a>	
-	<section class="samplesSection">
-		<div class="sample-1">
-			<div class="sampleDescription ">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-						<h1 class="sampleH1">Quiz App</h1>
-						<p class="sampleP">html / css / jquery / javascript</p>
-						<a href="https://github.com/alipsmith/quizApp" target="_blank"><i class="fa fa-github fa-lg"></i></a>
-						<a href="http://alipsmith.github.io/quizApp/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#sample2"><p class="counterArrow">1|4<br/><i class="arrow-down"></i></p></a>
-		</div>
-
-		<div class="sample-2">
-			<a id="sample2"></a>
-			<div class="sampleDescription">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-						<h1 class="sampleH1">Shopping List App</h1>
-						<p class="sampleP">html / css / jquery</p>
-						<a href="https://github.com/alipsmith/shopurr" target="_blank"><i class="fa fa-github fa-lg"></i></a>
-						<a href="http://alipsmith.github.io/shopurr/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#sample3" id="sample2"><p class="counterArrow">2|4<br/><i class="arrow-down"></i></p></a>
-		</div>
-
-		<div class="sample-3">
-			<a id="sample3"></a>
-			<div class="sampleDescription">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-						<h1>Guessing Game App</h1>
-						<p>html / css / jquery / javascript</p>
-						<a href="https://github.com/alipsmith/hotCold" target="_blank"><i class="fa fa-github fa-lg"></i></a>
-						<a href="http://alipsmith.github.io/hotCold/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#sample4"><p class="counterArrow">3|4<br/><i class="arrow-down"></i></p></a>
-		</div>
-			
-		<div class="sample-4">
-			<a id="sample4"></a>
-			<div class="sampleDescription">
-				<div class="sampleDescriptionContainer">
-					<div class="sampleDescriptionCenter vert-center cursorDefault">
-					<h1>API Mash-Up App</h1>
-					<p>html / css / jquery / javascript / AJAX</p>
-					<a href="https://github.com/alipsmith/flockFinder" target="_blank"><i class="fa fa-github fa-lg"></i></a>
-					<a href="http://alipsmith.github.io/flockFinder/" target="_blank"><i class="fa fa-external-link-square fa-lg"></i></a>
-					</div>
-				</div>
-			</div>
-			<a class="internalLink" href="#sample5" class="counterBackground"><p class="counterArrow">4|4<br/><i class="arrow-down"></i></p></a>
-		</div>
-	</section>
-				
-<!-- tv ads -->
-	<a id="tvA"></a>
-	<section class="tvSection">
-	<!-- hidden empty source for iframes -->
-	<a class="hidden" id="emptySource" href=""></a>
-	<!-- hidden empty source for iframes -->
-		<div class="sample-5">
-		<div class="blackFrame">
-		</div>
-			<a id="sample5"></a>
-			
-			<div class="tvMargins clearfix">
-				<div class="tvWrapper">
-			
-					<div class="tvHeaderWrapper clearfix">
-						<div class="tvLogo"></div>
-						<h1 class="tvCredits">Direct Response Campaign<br/>
-						Collaborating ACD / Copywriter / Producer</h1>
-					</div>
-					
-					<div class="iframeCarouselWrapper">
-						<iframe id="iframe-hsus" class="activeVid" src="" frameborder="0" allowfullscreen></iframe>
-					</div>
-
-					<div class="tvDescriptionWrapper">
-						<div class="thumbs">
-							<a class="videoLink thumb-hsus" id="hsus-video-one" href="https://www.youtube.com/embed/n3rUryAuEnc?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-one"></div></a>
-							<a class="videoLink thumb-hsus" id="hsus-video-two" href="https://www.youtube.com/embed/kajBVVsJMz0?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-two"></div></a>
-							<a class="videoLink thumb-hsus" href="https://www.youtube.com/embed/cI40MwpRgXQ?rel=0&amp;showinfo=0&amp;autoplay=1" id="hsus-video-three"><div class="thumb-three"></div></a>
-						</div>
-						
-					</div>
-				</div>	
-			</div>	
-			
-			<a class="internalLink" href="#sample6" class="counterBackground"><p class="counterArrow">1|5<br/><i class="arrow-down"></i></p></a>
-		</div>
-
-		<div class="sample-6">
-		<div class="blackFrame">
-		</div>
-			<a id="sample6"></a>
-			
-			<div class="tvMargins clearfix">
-				<div class="tvWrapper">
-			
-					<div class="tvHeaderWrapper clearfix">
-						<div class="tvLogo"></div>
-						<h1 class="tvCredits">Direct Response Campaign<br/>
-						Collaborating ACD / Copywriter / Producer</h1>
-					</div>
-					
-					<div class="iframeCarouselWrapper">
-						<iframe id="iframe-readybox" class="activeVid" src="" frameborder="0" allowfullscreen></iframe>
-					</div>
-
-					<div class="tvDescriptionWrapper">
-						<div class="thumbs">
-							<a class="videoLink thumb-readybox" id="readybox-video-one" href="https://www.youtube.com/embed/7pLlt6y3ZYw?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-one"></div></a>
-							<a class="videoLink thumb-readybox"id="hsus-video-two" href="https://www.youtube.com/embed/ajXzoulLsIs?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-two"></div></a>
-						</div>
-						
-					</div>
-				</div>	
-			</div>	
-			
-			<a class="internalLink" href="#sample7" class="counterBackground"><p class="counterArrow">2|6<br/><i class="arrow-down"></i></p></a>
-		</div>
-
-		<div class="sample-7">
-		<div class="blackFrame">
-		</div>
-			<a id="sample7"></a>
-			
-			<div class="tvMargins clearfix">
-				<div class="tvWrapper">
-			
-					<div class="tvHeaderWrapper clearfix">
-						<div class="tvLogo"></div>
-						<h1 class="tvCredits">Direct Response Campaign<br/>
-						Producer</h1>
-					</div>
-					
-					<div class="iframeCarouselWrapper">
-						<iframe id="iframe-cash4gold" class="activeVid" src="" frameborder="0" allowfullscreen></iframe>
-					</div>
-
-					<div class="tvDescriptionWrapper">
-						<div class="thumbs">
-							<a class="videoLink thumb-cash4gold" id="cash4gold-video-one" href="https://www.youtube.com/embed/RpcNKsNB7Hw?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-one"></div></a>
-							<a class="videoLink thumb-cash4gold"id="cash4gold-video-two" href="https://www.youtube.com/embed/nGd1ZL54_Iw?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-two"></div></a>
-							<a class="videoLink thumb-cash4gold"id="cash4gold-video-three" href="https://www.youtube.com/embed/UuajvluDSvw?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-three"></div></a>
-							<a class="videoLink thumb-cash4gold"id="cash4gold-video-four" href="https://www.youtube.com/embed/48qf37Zzlp8?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-four"></div></a>
-							<a class="videoLink thumb-cash4gold"id="cash4gold-video-five" href="https://www.youtube.com/embed/DBt5KB5oc1A?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-five"></div></a>
-						</div>
-						
-					</div>
-				</div>	
-			</div>	
-			
-			<a class="internalLink" href="#sample8" class="counterBackground"><p class="counterArrow">3|6<br/><i class="arrow-down"></i></p></a>
-		</div>
-
-		<div class="sample-8">
-		<div class="blackFrame">
-		</div>
-			<a id="sample8"></a>
-			
-			<div class="tvMargins clearfix">
-				<div class="tvWrapper">
-			
-					<div class="tvHeaderWrapper clearfix">
-						<div class="tvLogo"></div>
-						<h1 class="tvCredits">Direct Response Campaign<br/>
-						Copywriter/Producer</h1>
-					</div>
-					
-					<div class="iframeCarouselWrapper">
-						<iframe id="iframe-maxclarity" class="activeVid" src="" frameborder="0" allowfullscreen></iframe>
-					</div>
-
-					<div class="tvDescriptionWrapper">
-						<div class="thumbs">
-							<a class="videoLink thumb-maxclarity" id="maxclarity-video-one" href="https://www.youtube.com/embed/RLF7tou8i5s?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-one"></div></a>
-							<a class="videoLink thumb-maxclarity"id="maxclarity-video-two" href="https://www.youtube.com/embed/mNQJWuAHwIM?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-two"></div></a>
-						</div>
-						
-					</div>
-				</div>	
-			</div>	
-			
-			<a class="internalLink" href="#sample9" class="counterBackground"><p class="counterArrow">4|6<br/><i class="arrow-down"></i></p></a>
-		</div>
-
-	<div class="sample-9">
-		<div class="blackFrame">
-		</div>
-			<a id="sample9"></a>
-			
-			<div class="tvMargins clearfix">
-				<div class="tvWrapper">
-			
-					<div class="tvHeaderWrapper clearfix">
-						<div class="tvLogo"></div>
-						<h1 class="tvCredits">Direct Response Ad<br/>
-						Producer</h1>
-					</div>
-					
-					<div class="iframeCarouselWrapper">
-						<iframe id="iframe-lifelock" class="activeVid" src="" frameborder="0" allowfullscreen></iframe>
-					</div>
-
-					<div class="tvDescriptionWrapper">
-						<div class="thumbs">
-							<a class="videoLink thumb-lifelock" id="lifelock-video-one" href="https://www.youtube.com/embed/ONwCNLFa06k?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-one"></div></a>
-						</div>
-						
-					</div>
-				</div>	
-			</div>	
-		<a class="internalLink" href="#sample10" class="counterBackground"><p class="counterArrow">5|6<br/><i class="arrow-down"></i></p></a>
-		</div>
-			
-			<div class="sample-10">
-		<div class="blackFrame">
-		</div>
-			<a id="sample10"></a>
-			
-			<div class="tvMargins clearfix">
-				<div class="tvWrapper">
-			
-					<div class="tvHeaderWrapper clearfix">
-						<div class="tvLogo"></div>
-						<h1 class="tvCredits">Direct Response Ad<br/>
-						Copywriter</h1>
-					</div>
-					
-					<div class="iframeCarouselWrapper">
-						<iframe id="iframe-proflowers" class="activeVid" src="" frameborder="0" allowfullscreen></iframe>
-					</div>
-
-					<div class="tvDescriptionWrapper">
-						<div class="thumbs">
-							<a class="videoLink thumb-proflowers" id="proflowers-video-one" href="https://www.youtube.com/embed/-WDIBhb5Osw?rel=0&amp;showinfo=0&amp;autoplay=1"><div class="thumb-one"></div></a>
-						</div>
-						
-					</div>
-				</div>	
-			</div>	
-		<a class="internalLink" href="#contactA" class="counterBackground"><p class="counterArrow">6|6<br/><i class="arrow-down"></i></p></a>
-		</div>
-
-	</section>
-
-<!-- contact	 -->
-	<a id="contactA"></a>
-	<section class="contactSection">
-		<article class="contactArticle clearfix">
-			<div class="contactContainer clearfix cursorDefault">	
-				<h1>I’d love to help make your project rock!  I'm happy to contribute to Front-End Development, Graphics, Copywriting and Branding.</h1>
-				<p>
-				Home is currently Sacramento, CA but my gadgets and I are open to new adventures elsewhere.
-				</p>
-				<img id="infoPic" src="images/ohiPad250x250.jpg" alt="">
-				<div class="resumeIcons">
-					<p class="cursorDefault">You can download my resume <a href="assets/aliSmith_Resume_2016.pdf" target="_blank"><span class="highlight">here</span></a>.</p>
-					<div class="icons">
-						<a id="linkedin" href="https://www.linkedin.com/in/alipsmith" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
-						<a href="mailto:alipsmith@me.com?Subject=I%20need%20an%20awesome%20website."><i class="fa fa-envelope-square fa-2x"></i></a>
-						<a href="https://twitter.com/alipsmith" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-						<a href="https://instagram.com/alipsmith/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-					</div>
-				</div>
-			</div>
-		</article>
-		<a class="internalLink" href="#topA"><i class="arrow-up"></i></a>	
-	</section>	
-	
-	<footer>
-		<p class="footerP cursorDefault">It's all fun and games until someone breaks a link. &nbsp; &mdash; Derek Vigil
-	</footer>
-
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>	
-</body>
-</html>
+}
