@@ -715,9 +715,13 @@ iframe {
 	margin-top: 20px;
 }
 
-a#linkedin, fa-linkedin-square, .fa-envelope-square, .fa-twitter-square, .fa-instagram {
+a#linkedin, .fa-linkedin-square, .fa-envelope-square, .fa-twitter-square, .fa-instagram {
 	color: #007088;
 	margin-right: 11px;
+}
+
+.fa-twitter-square, .fa-instagram {
+	display: none;
 }
 
 .arrow-up {
